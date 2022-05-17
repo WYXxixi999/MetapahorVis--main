@@ -73,7 +73,8 @@ function CloseWindow() {
       left:270px;
     }
     .authors {
-      font-size: 18px;      
+      font-size: 18px; 
+
     }
   }
 
@@ -95,16 +96,20 @@ function CloseWindow() {
   height: 250px;
   width: 250px;
   border: solid 1px rgb(96, 98, 102);
+  border-top-width:2px;
+	border-left-width:2px;
+	border-bottom-width:2px;
+	border-right-width:2px;
 }
 
 .detailcontent {
   position:absolute;
   top:200px;
   left:300px;
-	border-top-width:0px;
-	border-left-width:0px;
+	/* border-top-width:0px;
+	border-left-width:2px;
 	border-bottom-width:2px;
-	border-right-width:2px;
+	border-right-width:2px; */
   
 }
 </style>

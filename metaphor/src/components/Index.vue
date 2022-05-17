@@ -4,7 +4,8 @@ import { Content } from "../data/content";
 import { Search, Aim } from "@element-plus/icons-vue";
 import CardView from "./Card.vue";
 import DetailView from "./DetailView.vue";
-import {paper} from "../data/paperData";
+import { paper } from "../data/paperData";
+
 const data = reactive({
   content: [],
   filters: ["", "", ""],
@@ -17,21 +18,31 @@ const data = reactive({
   current_content: null,
 });
 
-//console.log("paper:",paper[1])
-
 data.content = paper;
 
 const show_cards = computed(() => {
   if (data.filters.join("") === "") {
+    //如果没有选中筛选器
     return data.content;
   } else {
-    console.log(data.filters);
+    //如果有筛选
+    console.log("选中：", data.filters);
     return data.content.filter((d) => {
       for (let i = 0; i < data.filters.length; i++) {
         const filter = data.filters[i];
-        if (filter !== "") {
-          if (d.group.find((d) => d === filter) === undefined) {
-            return false;
+        if (filter == "All") return true;
+        else if (filter !== "") {
+          console.log("filter:", filter);
+          if (typeof filter == "object") {
+            console.log("选中数据类型（是一个数组）");
+            console.log("d.group",d.group);
+            if (d.group[2].find((d) => d === filter[0]) === undefined) {
+              return false;
+            }
+          } else {
+            if (d.group.find((d) => d === filter) === undefined) {
+              return false;
+            }
           }
         }
       }
@@ -40,8 +51,12 @@ const show_cards = computed(() => {
   }
 });
 
+// 定义筛选器
 function Filter(filter_index, condition) {
-  data.filters[filter_index] = condition;
+  if (filter_index != 2) data.filters[filter_index] = condition;
+  else {
+    data.filters[filter_index] = [condition];
+  }
 }
 
 const detailView = ref(null);
@@ -68,34 +83,41 @@ function ShowDetailWindow(content, card_rect) {
       <div class="title-row"><div>Metaphor Vis</div></div>
       <div class="function-row">
         <div class="function-group">
-          <div>Dimensionality</div>
+          <div>MetaphorTypes</div>
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
-            @click="Filter(0, '')"
+            @click="Filter(0, 'All')"
           >
+            <!-- 映射种类 选中All (0：是group第一个维度，"All":名字叫All)-->
+            <!-- 2022-5-14:还少一个Tooltip -->
+
             <el-icon color="white"><aim /></el-icon>
           </el-button>
 
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
-            @click="Filter(0, 'test1')"
+            @click="Filter(0, 'Form')"
           >
+            <!-- 映射种类 选中Form (0：是group第一个维度，"Form":形式隐喻)-->
+
             <el-icon color="white"><aim /></el-icon>
           </el-button>
 
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
-            @click="Filter(0, 'test2')"
+            @click="Filter(0, 'Interaction')"
           >
+            <!-- 映射种类 选中Interaction (0：是group第一个维度，"Interaction":交互隐喻)-->
+
             <el-icon color="white"><aim /></el-icon>
           </el-button>
         </div>
 
         <div class="function-group">
-          <div>Representation</div>
+          <div>MappingTypes</div>
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
@@ -112,7 +134,16 @@ function ShowDetailWindow(content, card_rect) {
           </el-button>
         </div>
 
-        <div class="function-group"><div>Alignment</div></div>
+        <div class="function-group">
+          <div>DataTypes</div>
+          <el-button
+            color="rgb(72, 124, 198)"
+            type="primary"
+            @click="Filter(2, 'Text')"
+          >
+            <el-icon color="white"><aim /></el-icon>
+          </el-button>
+        </div>
 
         <div class="function-group">
           <div>Fulltext Search</div>
