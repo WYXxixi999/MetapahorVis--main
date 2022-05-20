@@ -35,7 +35,7 @@ const show_cards = computed(() => {
           console.log("filter:", filter);
           if (typeof filter == "object") {
             console.log("选中数据类型（是一个数组）");
-            console.log("d.group",d.group);
+            console.log("d.group", d.group);
             if (d.group[2].find((d) => d === filter[0]) === undefined) {
               return false;
             }
@@ -95,15 +95,16 @@ function ShowDetailWindow(content, card_rect) {
             <el-icon color="white"><aim /></el-icon>
           </el-button>
 
-          <el-button
-            color="rgb(72, 124, 198)"
-            type="primary"
-            @click="Filter(0, 'Form')"
-          >
-            <!-- 映射种类 选中Form (0：是group第一个维度，"Form":形式隐喻)-->
+            <el-button
+              color="rgb(72, 124, 198)"
+              type="primary"
+              @click="Filter(0, 'Form')"
+            >
+              <!-- 映射种类 选中Form (0：是group第一个维度，"Form":形式隐喻)-->
 
-            <el-icon color="white"><aim /></el-icon>
-          </el-button>
+              <el-icon color="white"><aim /></el-icon>
+            </el-button>
+          
 
           <el-button
             color="rgb(72, 124, 198)"
@@ -161,6 +162,7 @@ function ShowDetailWindow(content, card_rect) {
             "
           >
             {{ show_cards.length }}
+            <!-- 173 -->
           </div>
         </div>
       </div>

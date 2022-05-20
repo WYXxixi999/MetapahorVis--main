@@ -9,19 +9,27 @@
       @click="CloseWindow"
     />
     <div class="content">
-        <div class="groups">
-          <div v-for="g in content.group" :key="g">{{ g }}</div>
-        </div>
-        <el-image
-          class="preview-img"
-          :src="props.content.picture"
-          fit="cover"
-        />
-        <div class="text">
-          <div class="title">{{ props.content.name }}</div>
-          <div class="authors">{{ props.content.authors }}</div>
-          <a class="detailcontent" :href=props.content.url>{{props.content.title}}</a>
-        </div>
+      <div class="groups">
+        <div v-for="g in content.group" :key="g">{{ g }}</div>
+        <!-- <div>Form</div>
+        <div>Man-made</div>
+        <div>Text&Graph</div>
+        <div>Map</div> -->
+      </div>
+      <el-image class="preview-img" :src="props.content.picture" fit="cover" />
+      <div class="text">
+        <div class="title">{{ props.content.name }}</div>
+        <div class="authors">{{ props.content.authors }}</div>
+        <a class="typeTitleConstructMethod">constructMethod & Task & Application:</a>
+        <a class="constructMethod">{{ props.content.constructMethod }}</a>
+        <a class="task">{{ props.content.task }}</a>
+        <a class="application">{{ props.content.application }}</a>
+        <a class="publicationTitle">Publication:</a>
+        <a class="publication">{{ props.content.publication }}</a>
+        <a class="detailcontent" :href="props.content.url">{{
+          props.content.title
+        }}</a>
+      </div>
     </div>
   </div>
 </template>
@@ -70,11 +78,10 @@ function CloseWindow() {
     .title {
       font-size: 30px;
       font-weight: bolder;
-      left:270px;
+      left: 270px;
     }
     .authors {
-      font-size: 18px; 
-
+      font-size: 18px;
     }
   }
 
@@ -85,7 +92,7 @@ function CloseWindow() {
     margin-right: 10px;
     display: flex;
     div {
-      background-color: rgb(72, 124, 198);
+      background-color: rgb(138, 186, 208);
       padding: 2px;
       margin: 10px;
       border-radius: 3px;
@@ -96,20 +103,64 @@ function CloseWindow() {
   height: 250px;
   width: 250px;
   border: solid 1px rgb(96, 98, 102);
-  border-top-width:2px;
-	border-left-width:2px;
-	border-bottom-width:2px;
-	border-right-width:2px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
 }
 
 .detailcontent {
-  position:absolute;
-  top:200px;
-  left:300px;
-	/* border-top-width:0px;
+  position: absolute;
+  top: 200px;
+  left: 295px;
+  /* border-top-width:0px;
 	border-left-width:2px;
 	border-bottom-width:2px;
 	border-right-width:2px; */
-  
+}
+.publication {
+  position: absolute;
+  top: 180px;
+  left: 295px;
+  /* border-top-width:0px;
+	border-left-width:2px;
+	border-bottom-width:2px;
+	border-right-width:2px; */
+}
+.publicationTitle {
+  position: absolute;
+  top: 165px;
+  left: 295px;
+  font-size: 15px;
+  font-weight: bolder;
+  /* border-top-width:0px;
+	border-left-width:2px;
+	border-bottom-width:2px;
+	border-right-width:2px; */
+}
+.typeTitleConstructMethod{
+  position: absolute;
+  top: 70px;
+  left: 295px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.constructMethod {
+  position: absolute;
+  top: 90px;
+  left: 295px;
+
+}
+.task {
+  position: absolute;
+  top: 110px;
+  left: 295px;
+
+}
+.application {
+  position: absolute;
+  top: 130px;
+  left: 295px;
+
 }
 </style>
