@@ -96,7 +96,7 @@ export let paper = [
         ["Interaction","R",["Spatial"],"Pointer"],
         //application 应用场景
         ["HCI"],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         ["Enjoy"],
@@ -237,7 +237,7 @@ export let paper = [
         ["Interaction", "Z", ["Spatial"],"Clay"],
         //application 应用场景
         ["BioloMedical","Geography"],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         ["Present"],
@@ -262,16 +262,16 @@ export let paper = [
         //picturePath
         "../picture100/2017-EMap-SocialMedia.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","R",["Text"],""],
+        ["Form","R",["Text","Graph"],"Map"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology","Attribute","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/8585638",//url
         //publication
-        "",
+        "2017 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -290,16 +290,16 @@ export let paper = [
         //picturePath
         "../picture100/2016-Wheel-Brand.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["Text"],"Wheel"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/7883513",//url
         //publication
-        "",
+        "2016 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -318,16 +318,16 @@ export let paper = [
         //picturePath
         "../picture100/2016-Flow-Ideas.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text","Time","Graph"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/7883511",//url
         //publication
-        "",
+        "2016 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -346,16 +346,16 @@ export let paper = [
         //picturePath
         "../picture100/2015-Flow-CiteText.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/7192685",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 22, Issue: 1, Jan. 31 2016)",
         //innerContent
         {
             Abstract:"",
@@ -374,16 +374,16 @@ export let paper = [
         //picturePath
         "../picture100/2014-Band-Emotion.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","F",["Text"],"Band"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigtalHumanities","SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate","Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/7042496",//url
         //publication
-        "",
+        "2014 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -402,13 +402,13 @@ export let paper = [
         //picturePath
         "../picture100/2014-Bubble-Emotion.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text"],"Bubble"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
+        ["Summarize"],
         "",//url
         //publication
         "",
@@ -430,16 +430,16 @@ export let paper = [
         //picturePath
         "../picture100/2013-Sedimentation-TimeSeries.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text","Time"],"Sedimentation"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/6634152",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -458,16 +458,16 @@ export let paper = [
         //picturePath
         "../picture100/2013-Kite-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Interaction","","",""],
+        ["Interaction","R",["Volume"],"Kite"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["SciExperiment"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://www.computer.org/csdl/proceedings-article/ldav/2013/06675159/12OmNzFv4dw",//url
         //publication
-        "",
+        "2013 IEEE Symposium on Large-Scale Data Analysis and Visualization (LDAV)",
         //innerContent
         {
             Abstract:"",
@@ -477,25 +477,25 @@ export let paper = [
     ),
     new Content(
         "2013-StickyNote-Interaction-18",//id
-        "",//name
+        "StickyNote(2013)",//name
         //title
-        "",
-        "",//year
+        "The Impact of Physical Navigation on Spatial Organization for Sensemaking",
+        "2013",//year
         //authors
-        "",
+        "Christopher Andrews and Chris North",
         //picturePath
         "../picture100/2013-StickyNote-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Interaction","","",""],
+        ["Interaction","R",["Text"],"StickyNote"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6634176",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -505,25 +505,25 @@ export let paper = [
     ),
     new Content(
         "2013-MusicScore-CNVData-19",//id
-        "",//name
+        "MusicScore(2013)",//name
         //title
-        "",
-        "",//year
+        "Leveraging Wall-sized High-Resolution Displays for Comparative Genomics Analyses of Copy Number Variation",
+        "2013",//year
         //authors
-        "",
+        "Roy A. Ruddle, Waleed Fateen, Darren Treanor Peter Sondergeld, Phil Quirke",
         //picturePath
         "../picture100/2013-MusicScore-CNVData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["Volume"],"MusicScore"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Identify"],
+        "https://ieeexplore.ieee.org/abstract/document/6664351",//url
         //publication
-        "",
+        "2013 IEEE Symposium on Biological Data Visualization (BioVis)",
         //innerContent
         {
             Abstract:"",
@@ -533,25 +533,25 @@ export let paper = [
     ),
     new Content(
         "2013-Shutter-Interaction-20",//id
-        "",//name
+        "Shutter(2013)",//name
         //title
-        "",
-        "",//year
+        "MoClo Planner:Interactive Visualization for Modular Cloning Bio-Design",
+        "2013",//year
         //authors
-        "",
+        "Orit Shaer, Consuelo Valdes, Sirui Liu, Kara Lu, Traci L. Haddock, Swapnil Bhatia, Douglas Densmore, Robert Kincaid",
         //picturePath
         "../picture100/2013-Shutter-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Interaction","","",""],
+        ["Interaction","R",["Volume"],"Shutter"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6664347",//url
         //publication
-        "",
+        "2013 IEEE Symposium on Biological Data Visualization (BioVis)",
         //innerContent
         {
             Abstract:"",
@@ -561,25 +561,25 @@ export let paper = [
     ),
     new Content(
         "2013-Bubble-DataExplore-21",//id
-        "",//name
+        "Bubble(2013)",//name
         //title
-        "",
-        "",//year
+        "HumMod Browser: An Exploratory Visualization Tool for the Analysis of Whole-Body Physiology Simulation Data",
+        "2013",//year
         //authors
-        "",
+        "Keqin Wu Jian Chen* William A. Pruett Robert L. Hester",
         //picturePath
         "../picture100/2013-Bubble-DataExplore.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Volume","Graph"],"Bubble"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/6664352",//url
         //publication
-        "",
+        "2013 IEEE Symposium on Biological Data Visualization (BioVis)",
         //innerContent
         {
             Abstract:"",
@@ -589,25 +589,25 @@ export let paper = [
     ),
     new Content(
         "2013-Lines-TimeSeries-22",//id
-        "",//name
+        "Lines(2013)",//name
         //title
-        "",
-        "",//year
+        "HumMod Browser: An Exploratory Visualization Tool for the Analysis of Whole-Body Physiology Simulation Data",
+        "2013",//year
         //authors
-        "",
+        "Keqin Wu Jian Chen* William A. Pruett Robert L. Hester",
         //picturePath
         "../picture100/2013-Lines-TimeSeries.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","F",["Event","Time"],"Line"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical","NetworkSecurity"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/6664352",//url
         //publication
-        "",
+        "2013 IEEE Symposium on Biological Data Visualization (BioVis)",
         //innerContent
         {
             Abstract:"",
@@ -617,25 +617,25 @@ export let paper = [
     ),
     new Content(
         "2013-Lines-EntitiesbyTimes-23",//id
-        "",//name
+        "Lines(2013)",//name
         //title
-        "",
-        "",//year
+        "StoryFlow: Tracking the Evolution of Stories",
+        "2013",//year
         //authors
-        "",
+        "Shixia Liu, Senior Member, IEEE, Yingcai Wu, Member, IEEE, Enxun Wei, Mengchen Liu, and Yang Liu",
         //picturePath
         "../picture100/2013-Lines-EntitiesbyTimes.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","F",["Event","Time"],"Lines"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["NetworkSecurity","DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute","Distance","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate","Explore","Present"],
+        "https://ieeexplore.ieee.org/abstract/document/6634164",//url
         //publication
-        "",
+        " IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -645,25 +645,25 @@ export let paper = [
     ),
     new Content(
         "2013-Clock-TimeSeries-24",//id
-        "",//name
+        "Clock(2013)",//name
         //title
-        "",
-        "",//year
+        "Evaluation of Filesystem Provenance Visualization Tools",
+        "2014",//year
         //authors
-        "",
+        "Michelle A. Borkin, Student Member, IEEE, Chelsea S. Yeh, Madelaine Boyd, Peter Macko,",
         //picturePath
         "../picture100/2013-Clock-TimeSeries.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text","Time"],"Clock"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/6634189",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -673,25 +673,25 @@ export let paper = [
     ),
     new Content(
         "2013-TimeLine-SocialMedia-25",//id
-        "",//name
+        "TimeLine(2013)",//name
         //title
-        "",
-        "",//year
+        "Visual Analysis of Topic Competition on Social Media ",
+        "2013",//year
         //authors
-        "",
+        "Panpan Xu, Yingcai Wu, Enxun Wei, Tai-Quan Peng,Shixia Liu,Jonathan J. H. Zhu, and Huamin Qu",
         //picturePath
         "../picture100/2013-TimeLine-SocialMedia.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","F",["Text","Graph","Time"],"Line"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Compare"],
+        "https://ieeexplore.ieee.org/abstract/document/6634134",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -701,25 +701,25 @@ export let paper = [
     ),
     new Content(
         "2013-DirectManipulation-Interaction-26",//id
-        "",//name
+        "DirectManipulation(2013)",//name
         //title
-        "",
-        "",//year
+        "Interactive Exploration of Implicit and Explicit Relations in Faceted Datasets",
+        "2013",//year
         //authors
-        "",
+        "Jian Zhao, Christopher Collins, Fanny Chevalier, and Ravin Balakrishnan",
         //picturePath
         "../picture100/2013-DirectManipulation-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Interaction","","",""],
+        ["Interaction","D",["Text"],"DirectManipulation"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Academic","DigtalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6634163",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -729,25 +729,25 @@ export let paper = [
     ),
     new Content(
         "2013-Map-SocialMedia-27",//id
-        "",//name
+        "Map(2013)",//name
         //title
-        "",
-        "",//year
+        "ScatterBlogs2: Real-Time Monitoring of Microblog Messages Through User-Guided Filtering",
+        "2013",//year
         //authors
         "",
         //picturePath
         "../picture100/2013-Map-SocialMedia.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Map",["Text","Time"],"Map"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/6634195",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 19, Issue: 12, Dec. 2013)",
         //innerContent
         {
             Abstract:"",
@@ -757,25 +757,25 @@ export let paper = [
     ),
     new Content(
         "2012-Glyps-Biology-28",//id
-        "",//name
+        "Glyps(2012)",//name
         //title
-        "",
+        "Taxonomy-Based Glyph Design—with a Case Study on Visualizing Workflows of Biological Experiments",
         "",//year
         //authors
-        "",
+        "Eamonn Maguire, Philippe Rocca-Serra, Susanna-Assunta Sansone, Jim Davies, and Min Chen",
         //picturePath
         "../picture100/2012-Glyps-Biology.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","K",["MetaData"],"Glyps"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SciExperiment"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Derive","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6327266",//url
         //publication
-        "",
+        " IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -785,25 +785,25 @@ export let paper = [
     ),
     new Content(
         "2012-SunFlower-SocialMedia-29",//id
-        "",//name
+        "Flower(2012)",//name
         //title
-        "",
-        "",//year
+        "Whisper: Tracing the Spatiotemporal Process of Information Diffusion in Real Time",
+        "2012",//year
         //authors
-        "",
+        "Nan Cao, Yu-Ru Lin, Xiaohua Sun, David Lazer, Shixia Liu, and Huamin Qu",
         //picturePath
         "../picture100/2012-SunFlower-SocialMedia.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text","Time"],"Flower"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance","Topology","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/6327271",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -813,25 +813,25 @@ export let paper = [
     ),
     new Content(
         "2012-Flow-Analysis-30",//id
-        "",//name
+        "Flow(2012)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Flow of Uncertainty through Analytical Processes",
+        "2012",//year
         //authors
-        "",
+        "Yingcai Wu, Member, IEEE, Guo-Xun Yuan, and Kwan-Liu Ma, Fellow, IEEE",
         //picturePath
         "../picture100/2012-Flow-Analysis.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["MetaDdata"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/6327258",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -841,25 +841,25 @@ export let paper = [
     ),
     new Content(
         "2012-Arrows-PositionAndDirection-31",//id
-        "",//name
+        "Arrows(2012)",//name
         //title
-        "",
-        "",//year
+        "Visualization of Electrostatic Dipoles in Molecular Dynamics of Metal Oxides",
+        "2012",//year
         //authors
-        "",
+        "Sebastian Grottel, Philipp Beck, Christoph M¨uller, Guido Reina, Johannes Roth, Hans-Rainer Trebin, and Thomas Ertl",
         //picturePath
         "../picture100/2012-Arrows-PositionAndDirection.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","",[""],""],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SciExperiment"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6327210",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -869,25 +869,25 @@ export let paper = [
     ),
     new Content(
         "2012-Spatial-Interaction-32",//id
-        "",//name
+        "Spatial(2012)",//name
         //title
-        "",
-        "",//year
+        "Understanding Pen and Touch Interaction for Data Exploration on Interactive Whiteboards",
+        "2012",//year
         //authors
-        "",
+        "Jagoda Walny, Bongshin Lee, Paul Johns, Nathalie Henry Riche, and Sheelagh Carpendale",
         //picturePath
         "../picture100/2012-Spatial-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
         ["Interaction","","",""],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6327284",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -897,25 +897,25 @@ export let paper = [
     ),
     new Content(
         "2012-Slot-Tile-Drag-Interaction-33",//id
-        "",//name
+        "Slot-Tile-Drag(2012)",//name
         //title
-        "",
-        "",//year
+        "The DeepTree Exhibit: Visualizing the Tree of Life to Facilitate Informal Learning",
+        "2012",//year
         //authors
-        "",
+        "Florian Block, Michael S. Horn, Brenda Caldwell Phillips,Judy Diamond, E. Margaret Evans,and Chia Shen",
         //picturePath
         "../picture100/2012-Slot-Tile-Drag-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",["Hierachy"],"Drag"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6327285",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -925,25 +925,25 @@ export let paper = [
     ),
     new Content(
         "2012-DashBoard-VideoSpeed-34",//id
-        "",//name
+        "DashBoard(2012)",//name
         //title
-        "",
-        "",//year
+        "Evaluation of Fast-Forward Video Visualization",
+        "212",//year
         //authors
-        "",
+        "Markus H¨oferlin, Kuno Kurzhals, Benjamin H¨oferlin, Gunther Heidemann, and Daniel Weiskopf",
         //picturePath
         "../picture100/2012-DashBoard-VideoSpeed.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["Veio"],"DashBoard"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6327214",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -953,25 +953,25 @@ export let paper = [
     ),
     new Content(
         "2012-Flow-Text-35",//id
-        "",//name
+        "Flow(2012)",//name
         //title
-        "",
-        "",//year
+        "LeadLine: Interactive Visual Analysis of Text Data through Event Identifification and Exploration",
+        "2012",//year
         //authors
-        "",
+        "Wenwen Dou, Xiaoyu Wang, Drew Skau, William Ribarsky, and Michelle X. Zhou",
         //picturePath
         "../picture100/2012-Flow-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text","Graph"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities","NetworkSecurity","SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/6400485",//url
         //publication
-        "",
+        "2012 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -980,26 +980,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2012-Painting-MachineLearning-36",//id
-        "",//name
+        "2005-Painting-MachineLearning-36",//id
+        "Painting(2005)",//name
         //title
         "An Intelligent System Approach to HigherDimensional Classification of Volume Data",
-        "",//year
+        "2005",//year
         //authors
-        "",
+        "Fan-Yin Tzeng, Eric B. Lum, Member, IEEE, and Kwan-Liu Ma, Senior Member, IEEE",
         //picturePath
-        "../picture100/2012-Painting-MachineLearning.png",
+        "../picture100/2005-Painting-MachineLearning.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","D",["Volume"],"Painting"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer","NetworkSecurity"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Record"],
+        "https://ieeexplore.ieee.org/abstract/document/1407860",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 11, Issue: 3, May-June 2005)",
         //innerContent
         {
             Abstract:"",
@@ -1009,25 +1009,25 @@ export let paper = [
     ),
     new Content(
         "2012-Wheel-MultiData-37",//id
-        "",//name
+        "Wheel(2012)",//name
         //title
-        "",
-        "",//year
+        "Reinventing the Contingency Wheel: Scalable Visual Analytics of Large Categorical Data",
+        "2012",//year
         //authors
-        "",
+        "Bilal Alsallakh, Wolfgang Aigner, Silvia Miksch, and M. Eduard Gr¨oller",
         //picturePath
         "../picture100/2012-Wheel-MultiData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["MetaData"],"Wheel"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/6327291",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -1037,25 +1037,25 @@ export let paper = [
     ),
     new Content(
         "2012-Lens-Interaction-38",//id
-        "",//name
+        "Lens(2012)",//name
         //title
-        "",
-        "",//year
+        "Living Liquid: Design and Evaluation of an Exploratory Visualization Tool for Museum Visitors",
+        "2012",//year
         //authors
-        "",
+        "Joyce Ma, Isaac Liao, Kwan-Liu Ma, Fellow, and Jennifer Frazier",
         //picturePath
         "../picture100/2012-Lens-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["MetaData","Volume"],"Lens"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["DititalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/6327286",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -1065,25 +1065,25 @@ export let paper = [
     ),
     new Content(
         "2012-Filter-Flow-Interaction-39",//id
-        "",//name
+        "Filter(2012)",//name
         //title
-        "",
-        "",//year
+        "Beyond Mouse and Keyboard: Expanding Design Considerations for Information Visualization Interactions",
+        "2012",//year
         //authors
-        "",
+        "Bongshin Lee, Petra Isenberg, Nathalie Henry Riche, and Sheelagh Carpendale",
         //picturePath
         "../picture100/2012-Filter-Flow-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",["Spatial"],"Filtering"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/6327275",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -1093,25 +1093,25 @@ export let paper = [
     ),
     new Content(
         "2012-Film-Strip-VedioFrame-40",//id
-        "",//name
+        "Film-Strip(2012)",//name //幻灯片
         //title
-        "",
-        "",//year
+        "AlVis: Situation Awareness in the Surveillance of Road Tunnels",
+        "2012",//year
         //authors
-        "",
+        "Harald Piringer∗，Matthias Buchetics†，Rudolf Benedik‡",
         //picturePath
         "../picture100/2012-Film-Strip-VedioFrame.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["Vedio"],"Film-Strip"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Geography"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/6400556",//url
         //publication
-        "",
+        "2012 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -1121,25 +1121,25 @@ export let paper = [
     ),
     new Content(
         "2012-Paper-on-Table-Interaction-41",//id
-        "",//name
+        "Paper-on-Table(2012)",//name
         //title
-        "",
-        "",//year
+        "Interaction Support for Visual Comparison Inspired by Natural Behavior",
+        "2012",//year
         //authors
-        "",
+        "Christian Tominski, Camilla Forsell, and Jimmy Johansson",
         //picturePath
         "../picture100/2012-Paper-on-Table-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Text"],"Paper"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore","Compare"],
+        "https://ieeexplore.ieee.org/abstract/document/6327278",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 18, Issue: 12, Dec. 2012)",
         //innerContent
         {
             Abstract:"",
@@ -1149,25 +1149,25 @@ export let paper = [
     ),
     new Content(
         "2011-Light-Surgery-42",//id
-        "",//name
+        "Light(2011)",//name
         //title
-        "",
-        "",//year
+        "Crepuscular Rays for Tumor Accessibility Planning",
+        "2011",//year
         //authors
-        "",
+        "Rostislav Khlebnikov, Bernhard Kainz, Judith Muehl, and Dieter Schmalstieg, Member, IEEE",
         //picturePath
         "../picture100/2011-Light-Surgery.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Volume"],"Light"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/6064981",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 17, Issue: 12, Dec. 2011)",
         //innerContent
         {
             Abstract:"",
@@ -1177,25 +1177,25 @@ export let paper = [
     ),
     new Content(
         "2011-ParallelCoordinate-Text-43",//id
-        "",//name
+        "ParallelCoordinate(2011)",//name
         //title
-        "",
-        "",//year
+        "ParallelTopics: A Probabilistic Approach to Exploring Document Collections",
+        "2011",//year
         //authors
-        "",
+        "Wenwen Dou∗, Xiaoyu Wang†,Remco Chang‡,William Ribarsky§",
         //picturePath
         "../picture100/2011-ParallelCoordinate-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","K",["Text"],"ParallelCoordinate"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/6102461",//url
         //publication
-        "",
+        "2011 IEEE Conference on Visual Analytics Science and Technology (VAST)",
         //innerContent
         {
             Abstract:"",
@@ -1205,25 +1205,25 @@ export let paper = [
     ),
     new Content(
         "2011-Fog-Uncertain-44",//id
-        "",//name
+        "Fog(2011)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Virus Population Variability From Next Generation Sequencing Data",
+        "2011",//year
         //authors
         "",
         //picturePath
         "../picture100/2011-Fog-Uncertain.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Volume"],"Fog"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SciExperiment"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6094058",//url
         //publication
-        "",
+        "2011 IEEE Symposium on Biological Data Visualization (BioVis).",
         //innerContent
         {
             Abstract:"",
@@ -1233,25 +1233,25 @@ export let paper = [
     ),
     new Content(
         "2011-HeatMap-Event-45",//id
-        "",//name
+        "HeatMap(2011)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Virus Population Variability From Next Generation Sequencing Data",
+        "2011",//year
         //authors
-        "",
+        "Michael Correll∗ , Subhadip Ghosh† , David O’Connor‡ , Michael Gleicher§",
         //picturePath
         "../picture100/2011-HeatMap-Event.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Event"],"HeatMap"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/6094058",//url
         //publication
-        "",
+        "2011 IEEE Symposium on Biological Data Visualization (BioVis).",
         //innerContent
         {
             Abstract:"",
@@ -1261,25 +1261,25 @@ export let paper = [
     ),
     new Content(
         "2011-Flow-Text-46",//id
-        "",//name
+        "Flow(2011)",//name
         //title
-        "",
-        "",//year
+        "TextFlow: Towards Better Understanding of Evolving Topics in Text",
+        "2011",//year
         //authors
-        "",
+        "Weiwei Cui, Shixia Liu, Member, IEEE, Li Tan, Conglei Shi, Yangqiu Song, Zekai J. Gao, Xin Tong, and Huamin Qu",
         //picturePath
         "../picture100/2011-Flow-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/6065008",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 17, Issue: 12, Dec. 2011)",
         //innerContent
         {
             Abstract:"",
@@ -1289,25 +1289,25 @@ export let paper = [
     ),
     new Content(
         "2011-Slab-probability-47",//id
-        "",//name
+        "Slab2011()",//name
         //title
-        "",
-        "",//year
+        "Fiber Stippling: An Illustrative Rendering for Probabilistic Diffusion Tractography",
+        "2011",//year
         //authors
-        "",
+        "Mathias Goldau∗,Alexander Wiebel†,Nico Stephan Gorbach‡,Corina Melzer§,Mario Hlawitschka¶,Gerik Scheuermannk,Marc Tittgemeyer∗∗",
         //picturePath
         "../picture100/2011-Slab-probability.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","",[""],""],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/6094044",//url
         //publication
-        "",
+        "2011 IEEE Symposium on Biological Data Visualization (BioVis).",
         //innerContent
         {
             Abstract:"",
@@ -1317,25 +1317,25 @@ export let paper = [
     ),
     new Content(
         "2011-Seesaw-Comparion-48",//id
-        "",//name
+        "Seesaw(2011)",//name
         //title
-        "",
-        "",//year
+        "Asymmetric Relations in Longitudinal Social Networks",
+        "2011",//year
         //authors
-        "",
+        "Ulrik Brandes and Bobo Nick",
         //picturePath
         "../picture100/2011-Seesaw-Comparion.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["MetaData"],"Seesaw"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Compare"],
+        "https://ieeexplore.ieee.org/abstract/document/6064994",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 17, Issue: 12, Dec. 2011)",
         //innerContent
         {
             Abstract:"",
@@ -1345,25 +1345,25 @@ export let paper = [
     ),
     new Content(
         "2011-TopoMap-MultiData-49",//id
-        "",//name
+        "TopologyMAP(2011)",//name
         //title
-        "",
-        "",//year
+        "Topological Spines: A Structure-Preserving Visual Representation of Scalar Fields",
+        "2011",//year
         //authors
-        "",
+        "Carlos D. Correa, Member, Peter Lindstrom,  and Peer-Timo Bremer",
         //picturePath
         "../picture100/2011-TopoMap-MultiData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["MetaData"],"Map"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Discover"],
+        "https://ieeexplore.ieee.org/abstract/document/6064947",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 17, Issue: 12, Dec. 2011)",
         //innerContent
         {
             Abstract:"",
@@ -1373,25 +1373,25 @@ export let paper = [
     ),
     new Content(
         "2010-Flow-Text-50",//id
-        "",//name
+        "Flow(2010)",//name
         //title
-        "",
-        "",//year
+        "TIARA: A Visual Exploratory Text Analytic System",
+        "2010",//year
         //authors
-        "",
+        "Furu Wei † , Shixia Liu † , Yangqiu Song †, Shimei Pan ‡, Michelle X. Zhou §, Weihong Qian † , Lei Shi † , Li Tan † and Qiang Zhang †",
         //picturePath
         "../picture100/2010-Flow-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://dl.acm.org/doi/abs/10.1145/1835804.1835827",//url
         //publication
-        "",
+        "",/*************************************没找到publication*********************************************/
         //innerContent
         {
             Abstract:"",
@@ -1401,25 +1401,25 @@ export let paper = [
     ),
     new Content(
         "2010-Cartoon-QueryOrTemporal-51",//id
-        "",//name
+        "Cartoon(2010)",//name
         //title
-        "",
-        "",//year
+        "Interactive Querying of Temporal Data Using A Comic Strip Metaphor ∗",
+        "2010",//year
         //authors
-        "",
+        "Jing Jin, Pedro Szekely†",
         //picturePath
         "../picture100/2010-Cartoon-QueryOrTemporal.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","R",["Time"],"Cartoon"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Identify"],
+        "https://ieeexplore.ieee.org/abstract/document/5652890",//url
         //publication
-        "",
+        "2010 IEEE Symposium on Visual Analytics Science and Technology",
         //innerContent
         {
             Abstract:"",
@@ -1429,25 +1429,25 @@ export let paper = [
     ),
     new Content(
         "2010-MapTerrian-Text-52",//id
-        "",//name
+        "Terrian Map(2010)",//name
         //title
-        "",
+        "Two-stage Framework for a Topology-Based Projection and Visualization of Classifified Document Collections",
         "",//year
         //authors
-        "",
+        "Patrick Oesterling,Gerik Scheuermann∗ ,Sven Teresniak ,Gerhard Heyer†,Steffen Koch Thomas Ertl‡,Gunther H. Weber§",
         //picturePath
         "../picture100/2010-MapTerrian-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text","MetaData"],"Map"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology","Distance","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/5652940",//url
         //publication
-        "",
+        "2010 IEEE Symposium on Visual Analytics Science and Technology",
         //innerContent
         {
             Abstract:"",
@@ -1457,25 +1457,25 @@ export let paper = [
     ),
     new Content(
         "2010-Flow-MultiText-53",//id
-        "",//name
+        "Flow(2010)",//name
         //title
-        "",
-        "",//year
-        //authors
-        "",
+        "Understanding Text Corpora with Multiple Facets",
+        "2010",//year
+        //authors   
+        "Lei Shi ,Furu Wei ,Shixia Liu, Li Tan ,Xiaoxiao Lian∗,Michelle X. Zhou†",
         //picturePath
         "../picture100/2010-Flow-MultiText.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text",""],""],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/5652931",//url
         //publication
-        "",
+        "2010 IEEE Symposium on Visual Analytics Science and Technology",
         //innerContent
         {
             Abstract:"",
@@ -1485,25 +1485,25 @@ export let paper = [
     ),
     new Content(
         "2010-Triangle-Opinion-54",//id
-        "",//name
+        "Triangle(2010)",//name
         //title
-        "",
-        "",//year
+        "OpinionSeer: Interactive Visualization of Hotel Customer Feedback",
+        "2010",//year
         //authors
-        "",
+        "Yingcai Wu, Furu Wei, Shixia Liu, Norman Au, Weiwei Cui, Hong Zhou, and Huamin Qu",
         //picturePath
         "../picture100/2010-Triangle-Opinion.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","K",["Text"],"Triangle"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities","SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/5613449",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 16, Issue: 6, Nov.-Dec. 2010)",
         //innerContent
         {
             Abstract:"",
@@ -1513,25 +1513,25 @@ export let paper = [
     ),
     new Content(
         "2010-ParallelCoordinate-ClusterData-55",//id
-        "",//name
+        "ParallelCoordinate(2010)",//name
         //title
-        "",
-        "",//year
+        "Comparative Analysis of Multidimensional, Quantitative Data",
+        "2010",//year
         //authors
-        "",
+        "Alexander Lex, Marc Streit, Christian Partl, Karl Kashofer, and Dieter Schmalstieg",
         //picturePath
         "../picture100/2010-ParallelCoordinate-ClusterData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","K",[""],"ParallelCoordinate"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Compare"],
+        "https://ieeexplore.ieee.org/abstract/document/5613440",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 16, Issue: 6, Nov.-Dec. 2010)",
         //innerContent
         {
             Abstract:"",
@@ -1541,25 +1541,25 @@ export let paper = [
     ),
     new Content(
         "2011-Flower-WebData-56",//id
-        "",//name
+        "Flower(2011)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Web Search Results Using Glyphs:Design and Evaluation of a Flower Metaphor",
+        "2011",//year
         //authors
-        "",
+        "MICHAEL CHAU",
         //picturePath
         "../picture100/2011-Flower-WebData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","","",""],
+        ["Form","Z",["Text"],"Flower"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["NetworkScruity"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://dl.acm.org/doi/abs/10.1145/1929916.1929918",//url
         //publication
-        "",
+        "",/****************************************no poblication find************************************************* */
         //innerContent
         {
             Abstract:"",
@@ -1569,25 +1569,25 @@ export let paper = [
     ),
     new Content(
         "2007-TopologicalLandscape-ScalarFunction-57",//id
-        "",//name
+        "Topological Landscape(2007)",//name
         //title
-        "",
-        "",//year
+        "Topological Landscapes: A Terrain Metaphor for Scientific Data",
+        "2007",//year
         //authors
-        "",
+        "Gunther H. Weber, Peer-Timo Bremer and Valerio Pascucci",
         //picturePath
         "../picture100/2007-TopologicalLandscape-ScalarFunction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["MetaData"],"Landscape"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Discover","Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/4376169",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 13, Issue: 6, Nov.-Dec. 2007)",
         //innerContent
         {
             Abstract:"",
@@ -1597,25 +1597,25 @@ export let paper = [
     ),
     new Content(
         "2007-FlowRiver-Video-58",//id
-        "",//name
+        "FlowRiver(2007)",//name
         //title
-        "",
-        "",//year
+        "NewsLab: Exploratory Broadcast News Video Analysis",
+        "2007",//year
         //authors
-        "",
+        "Mohammad Ghoniem∗,Dongning Luo†,Jing Yang‡,William Ribarsky§",
         //picturePath
         "../picture100/2007-FlowRiver-Video.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Video"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/4389005",//url
         //publication
-        "",
+        "2007 IEEE Symposium on Visual Analytics Science and Technology",
         //innerContent
         {
             Abstract:"",
@@ -1625,25 +1625,25 @@ export let paper = [
     ),
     new Content(
         "2007-Lens-Interaction-59",//id
-        "",//name
+        "Lens(2007)",//name
         //title
-        "",
-        "",//year
+        "NewsLab: Exploratory Broadcast News Video Analysis",
+        "2007",//year
         //authors
-        "",
+        "Mohammad Ghoniem∗,Dongning Luo†,Jing Yang‡,William Ribarsky§",
         //picturePath
         "../picture100/2007-Lens-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Video"],"Lens"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Identify"],
+        "https://ieeexplore.ieee.org/abstract/document/4389005",//url
         //publication
-        "",
+        "2007 IEEE Symposium on Visual Analytics Science and Technology",
         //innerContent
         {
             Abstract:"",
@@ -1653,25 +1653,25 @@ export let paper = [
     ),
     new Content(
         "2006-Map-WebPrefix-60",//id
-        "",//name
+        "Map(2006)",//name
         //title
-        "",
-        "",//year
+        "Topographic Visualization of Prefix Propagation in the Internet",
+        "2006",//year
         //authors
-        "",
+        "Pier Francesco Cortese, Giuseppe Di Battista, Antonello Moneta,Maurizio Patrignani, and Maurizio Pizzonia",
         //picturePath
         "../picture100/2006-Map-WebPrefix.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"Map"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["NetworkScurity"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/4015423",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 12, Issue: 5, Sept.-Oct. 2006)",
         //innerContent
         {
             Abstract:"",
@@ -1681,25 +1681,25 @@ export let paper = [
     ),
     new Content(
         "2006-GpuTools-Medical-61",//id
-        "",//name
+        "GpuTools(2006)",//name
         //title
-        "",
-        "",//year
+        "Feature Aligned Volume Manipulation for Illustration and Visualization",
+        "2006",//year
         //authors
-        "",
+        "Carlos D. Correa, Deborah Silver and Min Chen",
         //picturePath
         "../picture100/2006-GpuTools-Medical.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Volume"],"GpuTools"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI","BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Identify"],
+        "https://ieeexplore.ieee.org/abstract/document/4015466",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 12, Issue: 5, Sept.-Oct. 2006)",
         //innerContent
         {
             Abstract:"",
@@ -1709,25 +1709,25 @@ export let paper = [
     ),
     new Content(
         "2006-SpaceFilling-Interaction-62",//id
-        "",//name
+        "SpaceFilling(2006)",//name
         //title
-        "",
-        "",//year
+        "FacetMap: A Scalable Search and Browse Visualization",
+        "2006",//year
         //authors
-        "",
+        "Greg Smith, Mary Czerwinski, Brian Meyers, Daniel Robbins, George Robertson, Desney S. Tan",
         //picturePath
         "../picture100/2006-SpaceFilling-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","K",["Text"],"SpaceFilling"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Browse"],
+        "https://ieeexplore.ieee.org/abstract/document/4015432",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 12, Issue: 5, Sept.-Oct. 2006)",
         //innerContent
         {
             Abstract:"",
@@ -1737,25 +1737,25 @@ export let paper = [
     ),
     new Content(
         "2006-Lens-Interaction-63",//id
-        "",//name
+        "Lens(2006)",//name
         //title
-        "",
-        "",//year
+        "ClearView:An Interactive Context Preserving Hotspot Visualization Technique",
+        "2006",//year
         //authors
-        "",
+        "Jens Kr¨uger, Jens Schneider, R¨udiger Westermann",
         //picturePath
         "../picture100/2006-Lens-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Volume"],"Lens"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Identify"],
+        "https://ieeexplore.ieee.org/abstract/document/4015450",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 12, Issue: 5, Sept.-Oct. 2006)",
         //innerContent
         {
             Abstract:"",
@@ -1765,25 +1765,25 @@ export let paper = [
     ),
     new Content(
         "2006-SolarSystem-Interaction-64",//id
-        "",//name
+        "Solar System(2006)",//name
         //title
-        "",
-        "",//year
+        "A Novel Visualization Model for Web Search Results",
+        "2006",//year
         //authors
-        "",
+        "Tien N. Nguyen, Member, IEEE and Jin Zhang",
         //picturePath
         "../picture100/2006-SolarSystem-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","Z",["Text"],"SolarSystem"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Browse"],
+        "https://ieeexplore.ieee.org/abstract/document/4015455",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 12, Issue: 5, Sept.-Oct. 2006)",
         //innerContent
         {
             Abstract:"",
@@ -1793,25 +1793,25 @@ export let paper = [
     ),
     new Content(
         "2006-Splitting-Interaction-65",//id
-        "",//name
+        "Splitting(2006)",//name
         //title
-        "",
-        "",//year
+        "Exploded Views for Volume Data",
+        "2006",//year
         //authors
-        "",
+        "Stefan Bruckner and M. Eduard Gr¨oller,Member, IEEE Computer Society",
         //picturePath
         "../picture100/2006-Splitting-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",["Volume"],""],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Browse"],
+        "https://ieeexplore.ieee.org/abstract/document/4015467",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 12, Issue: 5, Sept.-Oct. 2006)",
         //innerContent
         {
             Abstract:"",
@@ -1821,25 +1821,25 @@ export let paper = [
     ),
     new Content(
         "2006-MapAndTimeline-Analysis-66",//id
-        "",//name
+        "Map and Timeline(2006)",//name
         //title
-        "",
-        "",//year
+        "Interactive Visual Synthesis of Analytic Knowledge",
+        "2006",//year
         //authors
-        "",
+        "David Gotz∗ ,Michelle X. Zhou†, Vikram Aggarwal‡",
         //picturePath
         "../picture100/2006-MapAndTimeline-Analysis.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","F",["Text","Time"],"Line"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/4035747",//url
         //publication
-        "",
+        "2006 IEEE Symposium On Visual Analytics Science And Technology",
         //innerContent
         {
             Abstract:"",
@@ -1849,25 +1849,25 @@ export let paper = [
     ),
     new Content(
         "2005-ParallelSet-Classify-67",//id
-        "",//name
+        "ParallelSet(2005)",//name
         //title
-        "",
-        "",//year
+        "Parallel Sets: Visual Analysis of Categorical Data Visualization",
+        "2005",//year
         //authors
-        "",
+        "Carlos D. Correa, Deborah Silver and Min Chen",
         //picturePath
         "../picture100/2005-ParallelSet-Classify.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["MetaData"],"ParallelSet"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/1532139",//url
         //publication
-        "",
+        "IEEE Symposium on Information Visualization, 2005. INFOVIS 2005.",
         //innerContent
         {
             Abstract:"",
@@ -1877,25 +1877,25 @@ export let paper = [
     ),
     new Content(
         "2005-Piano-Signal-68",//id
-        "",//name
+        "Piano(2005)",//name
         //title
-        "",
-        "",//year
+        "The Visible Radio: Process Visualization of a Software-Defined Radio",
+        "2005",//year
         //authors
-        "",
+        "Matthew Hall, Alex Betts, Donna Cox, David Pointer, Volodymyr Kindratenko",
         //picturePath
         "../picture100/2005-Piano-Signal.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Time"],"Piano"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["CommunicationEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/1532791",//url
         //publication
-        "",
+        "VIS 05. IEEE Visualization, 2005.",
         //innerContent
         {
             Abstract:"",
@@ -1904,26 +1904,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2005-Camara-Interaction-68",//id
-        "",//name
+        "2005-Camara-Interaction-69",//id
+        "Camara(2005)",//name
         //title
-        "",
-        "",//year
+        "Visualization in the Einstein Year 2005: A Case Study on Explanatory and Illustrative Visualization of Relativity and Astrophysics",
+        "2005",//year
         //authors
-        "",
+        "Daniel Weiskopf∗, Marc Borchers, Thomas Ertl, Martin Falk, Oliver Fechtig, Regine Frank, Frank Grave,Andreas King, Ute Kraus, Thomas M¨uller, Hans-Peter Nollert, Isabel Rica Mendez, Hanns Ruder, Tobias Schafhitzel, Sonja Sch¨ar, Corvin Zahn, Michael Zatloukal",
         //picturePath
         "../picture100/2005-Camara-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","",[""],""],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Lookup"],
+        "https://ieeexplore.ieee.org/abstract/document/1532845",//url
         //publication
-        "",
+        "VIS 05. IEEE Visualization, 2005.",
         //innerContent
         {
             Abstract:"",
@@ -1932,26 +1932,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2005-Lens-Interaction-69",//id
-        "",//name
+        "2005-Lens-Interaction-70",//id
+        "Lens(2005)",//name
         //title
-        "",
-        "",//year
+        "The Magic Volume Lens: An Interactive Focus+Context Technique for Volume Rendering",
+        "2005",//year
         //authors
-        "",
+        "Lujin Wang Ye Zhao Klaus Mueller Arie Kaufman∗",
         //picturePath
         "../picture100/2005-Lens-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Volume"],"Lens"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Lookup"],
+        "https://ieeexplore.ieee.org/abstract/document/1532818",//url
         //publication
-        "",
+        "VIS 05. IEEE Visualization, 2005.",
         //innerContent
         {
             Abstract:"",
@@ -1960,26 +1960,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2005-TabbedPane-Interaction-70",//id
-        "",//name
+        "2005-TabbedPane-Interaction-71",//id
+        "TabbedPane(2005)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Coordination In Situ",
+        "2005",//year
         //authors
-        "",
+        "Chris Weaver∗",
         //picturePath
         "../picture100/2005-TabbedPane-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","F",["MetaData"],"TabbedPane"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/1532143",//url
         //publication
-        "",
+        "IEEE Symposium on Information Visualization, 2005. INFOVIS 2005.",
         //innerContent
         {
             Abstract:"",
@@ -1988,54 +1988,54 @@ export let paper = [
         }
     ),
     new Content(
-        "2005-X-Ray-Network-71",//id
-        "",//name
+        "2005-X-Ray-Network-72",//id
+        "X-Ray(2005)",//name
         //title
-        "",
-        "",//year
+        "Vizster: Visualizing Online Social Networks",
+        "2005",//year
         //authors
-        "",
+        "Jeffrey Heer,danah boyd",
         //picturePath
         "../picture100/2005-X-Ray-Network.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Graph"],"X-Ray"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/1532126",//url
         //publication
-        "",
+        "IEEE Symposium on Information Visualization, 2005. INFOVIS 2005.",
         //innerContent
         {
             Abstract:"",
-            Func:[""],
+            Func:[""], 
             Feature:[""]
         }
     ),
     new Content(
-        "2004-WrappedLine-DNA-72",//id
-        "",//name
+        "2004-WrappedLine-DNA-73",//id
+        "WrappedLine(2004)",//name
         //title
-        "",
-        "",//year
+        "PQuad: Visualization of Predicted Peptides and Proteins",
+        "2004",//year
         //authors
-        "",
+        "Susan L. Havre, Mudita Singhal, Deborah A. Payne ,Bobbie-Jo M. Webb-Robertson",
         //picturePath
         "../picture100/2004-WrappedLine-DNA.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["form","F",["Volume"],"Line"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/1372232",//url
         //publication
-        "",
+        "IEEE Visualization 2004",
         //innerContent
         {
             Abstract:"",
@@ -2044,26 +2044,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2004-Telescope-Interaction-73",//id
-        "",//name
+        "2004-Telescope-Interaction-74",//id
+        "Telescope(2004)",//name
         //title
-        "",
-        "",//year
+        "Evaluating a System for Interactive Exploration of Large, Hierarchically Structured Document Repositories",
+        "2004",//year
         //authors
-        "",
+        "Michael Granitzer+,Wolfgang Kienreich+ ,Vedran Sabol + ,Keith Andrews*,Werner Klieber +",
         //picturePath
         "../picture100/2004-Telescope-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Text"],"Telescope"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/1382900",//url
         //publication
-        "",
+        "IEEE Symposium on Information Visualization",
         //innerContent
         {
             Abstract:"",
@@ -2073,25 +2073,25 @@ export let paper = [
     ),
     new Content(
         "2004-Geography-Event-75",//id
-        "",//name
+        "Geography(2004)",//name
         //title
-        "",
-        "",//year
+        "Artifacts of the Presence Era: Using Information Visualization to Create an Evocative Souvenir",
+        "2004",//year
         //authors
-        "",
+        "Fernanda B. Viégas*,Ethan Perry*,Ethan Howe*,Judith Donath*",
         //picturePath
         "../picture100/2004-Geography-Event.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Event"],"Map"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Locate"],
+        "https://ieeexplore.ieee.org/abstract/document/1382897",//url
         //publication
-        "",
+        "IEEE Symposium on Information Visualization",
         //innerContent
         {
             Abstract:"",
@@ -2101,25 +2101,25 @@ export let paper = [
     ),
     new Content(
         "2004-Pionter-Interaction-76",//id
-        "",//name
+        "Pionter(2004)",//name
         //title
-        "",
-        "",//year
+        "Immersive Design of DNA Molecules with a Tangible Interface",
+        "2004",//year
         //authors
-        "",
+        "Steven Schkolne,Hiroshi Ishii,Peter Schröder",
         //picturePath
         "../picture100/2004-Pionter-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["volume"],"Pionter"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Lookup"],
+        "https://ieeexplore.ieee.org/abstract/document/1372201",//url
         //publication
-        "",
+        "IEEE Visualization 2004",
         //innerContent
         {
             Abstract:"",
@@ -2129,25 +2129,25 @@ export let paper = [
     ),
     new Content(
         "2003-Book-Anatomy-77",//id
-        "",//name
+        "Book(2003)",//name
         //title
-        "",
-        "",//year
+        "Using Deformations for Browsing Volumetric Data",
+        "2003",//year
         //authors
-        "",
+        "Michael J. McGuffin∗ ,Liviu Tancau† ,Ravin Balakrishnan‡",
         //picturePath
         "../picture100/2003-Book-Anatomy.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Volume"],"Book"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["BiologyMedical"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Browse"],
+        "https://ieeexplore.ieee.org/abstract/document/1250400",//url
         //publication
-        "",
+        "IEEE Visualization, 2003. VIS 2003.",
         //innerContent
         {
             Abstract:"",
@@ -2157,25 +2157,25 @@ export let paper = [
     ),
     new Content(
         "2011-City-SoftWare-78",//id
-        "",//name
+        "City(2011)",//name
         //title
-        "",
-        "",//year
+        "A 3D Metaphor for Software Production Visualization",
+        "2011",//year
         //authors
-        "",
+        "Thomas Panas, Rebecca Berrigan, John Grundy",
         //picturePath
         "../picture100/2011-City-SoftWare.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["MetaData","Time"],"City"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/1217996",//url
         //publication
-        "",
+        "Proceedings on Seventh International Conference on Information Visualization, 2003. IV 2003.",
         //innerContent
         {
             Abstract:"",
@@ -2185,25 +2185,25 @@ export let paper = [
     ),
     new Content(
         "2004-Landscape-SoftWare-79",//id
-        "",//name
+        "Landscape(2004)",//name
         //title
-        "",
-        "",//year
+        "Software LandscapesVisualizing the Structure of Large Software Systems",
+        "2004",//year
         //authors
-        "",
+        "Michael Balzer, Andreas Noack,Oliver Deussen,Claus Lewerentz",
         //picturePath
         "../picture100/2004-Landscape-SoftWare.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text"],"Landscape"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute","Topology","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "http://kops.uni-konstanz.de/handle/123456789/6049",//url
         //publication
-        "",
+        "",/************************************no publication find********************************************* */
         //innerContent
         {
             Abstract:"",
@@ -2213,25 +2213,25 @@ export let paper = [
     ),
     new Content(
         "2003-SolarSystem-SoftWare-Yang-80",//id
-        "",//name
+        "SolarSystem(2003)",//name
         //title
-        "",
-        "",//year
+        "Software Metrics and Visualisation",
+        "2003",//year
         //authors
-        "",
+        "Hong Yul Yang",
         //picturePath
         "../picture100/2003-SolarSystem-SoftWare-Yang.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text"],"SolarSystem"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute","Topology","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.135.7600&rep=rep1&type=pdf",//url
         //publication
-        "",
+        "",/*************************no publication find********************** */
         //innerContent
         {
             Abstract:"",
@@ -2241,25 +2241,25 @@ export let paper = [
     ),
     new Content(
         "2003-CityAndLandscape-SoftWare-Vuduc-81",//id
-        "",//name
+        "City and Landscape(2003)",//name
         //title
-        "",
-        "",//year
+        "Communicating software  architecture using a unifified single-view visualization",
+        "2003",//year
         //authors
-        "",
+        "Richard (Rich) Vuduc",
         //picturePath
         "../picture100/2003-CityAndLandscape-SoftWare-Vuduc.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"City"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute","Topology","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/4276318",//url
         //publication
-        "",
+        "12th IEEE International Conference on Engineering Complex Computer Systems (ICECCS 2007)",
         //innerContent
         {
             Abstract:"",
@@ -2269,25 +2269,25 @@ export let paper = [
     ),
     new Content(
         "2007-City-Software-Alam-82",//id
-        "",//name
+        "City(2007)",//name
         //title
-        "",
-        "",//year
+        "EvoSpaces Visualization Tool: Exploring Software Architecture in 3D",
+        "2007",//year
         //authors
-        "",
+        "Sazzadul Alam and Philippe Dugerdil",
         //picturePath
         "../picture100/2007-City-Software-Alam.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"City"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute","Topology","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/4400173",//url
         //publication
-        "",
+        "14th Working Conference on Reverse Engineering (WCRE 2007)",
         //innerContent
         {
             Abstract:"",
@@ -2297,25 +2297,25 @@ export let paper = [
     ),
     new Content(
         "2008-City-SoftWare-Method-83",//id
-        "",//name
+        "City(2008)",//name
         //title
-        "",
-        "",//year
+        "Visually Localizing Design Problems with Disharmony Maps",
+        "2008",//year
         //authors
-        "",
+        "Wettel, Richard and Lanza, Michele",
         //picturePath
         "../picture100/2008-City-SoftWare-Method.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"City"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Attribute","Topology","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://www.si.usi.ch/assets/publications/conf/softvis/softvis2008/WettelL08.pdf",//url
         //publication
-        "",
+        "Proceedings of the 4th ACM Symposium on Software Visualization",
         //innerContent
         {
             Abstract:"",
@@ -2325,25 +2325,25 @@ export let paper = [
     ),
     new Content(
         "2008-Flow-Software-Code-84",//id
-        "",//name
+        "Flow(2008)",//name
         //title
-        "",
-        "",//year
+        "Code Flows: Visualizing Structural Evolution of Source Code",
+        "2008",//year
         //authors
-        "",
+        "Telea, Alexandru and Auber, David",
         //picturePath
         "../picture100/2008-Flow-Software-Code.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01214.x",//url
         //publication
-        "",
+        "Computer Graphics Forum",
         //innerContent
         {
             Abstract:"",
@@ -2353,25 +2353,25 @@ export let paper = [
     ),
     new Content(
         "2008-TimeLine-SoftWareCode-85",//id
-        "",//name
+        "TimeLine(2008)",//name
         //title
-        "",
-        "",//year
+        "Visual Exploration of Large-Scale System Evolution",
+        "2008",//year
         //authors
-        "",
+        "Richard Wettel and Michele Lanza",
         //picturePath
         "../picture100/2008-TimeLine-SoftWareCode.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text","Time"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/4656413",//url
         //publication
-        "",
+        "2008 15th Working Conference on Reverse Engineering",
         //innerContent
         {
             Abstract:"",
@@ -2381,25 +2381,25 @@ export let paper = [
     ),
     new Content(
         "2008-Flow-SourceCode-86",//id
-        "",//name
+        "Flow(2008)",//name
         //title
-        "",
-        "",//year
+        "Visual Comparison of Hierarchically Organized Data",
+        "2008",//year
         //authors
-        "",
+        "Danny Holten and Jarke J. van Wijk",
         //picturePath
         "../picture100/2008-Flow-SourceCode.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text","Time"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy","Locate"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01205.x",//url
         //publication
-        "",
+        "Computer Graphics Forum",//no publication find
         //innerContent
         {
             Abstract:"",
@@ -2409,25 +2409,25 @@ export let paper = [
     ),
     new Content(
         "2008-CityMap-SoftWare-87",//id
-        "",//name
+        "CityMap(2008)",//name
         //title
-        "",
-        "",//year
+        "Visual Exploration of Large-Scale System Evolution",
+        "2008",//year
         //authors
-        "",
+        "Richard Wettel and Michele Lanza",
         //picturePath
         "../picture100/2008-CityMap-SoftWare.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"City"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology","Attribute","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/4656413",//url
         //publication
-        "",
+        "2008 15th Working Conference on Reverse Engineering",
         //innerContent
         {
             Abstract:"",
@@ -2437,25 +2437,25 @@ export let paper = [
     ),
     new Content(
         "2008-City-SoftWare-Wettel-88",//id
-        "",//name
+        "City(2008)",//name
         //title
-        "",
-        "",//year
+        "Visually Localizing Design Problems with Disharmony Maps",
+        "2008",//year
         //authors
-        "",
+        "Richard Wettel∗ and Michele Lanza†",
         //picturePath
         "../picture100/2008-City-SoftWare-Wettel.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"City"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SoftwareEngineer"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology","Attribute","Hybrid"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Enjoy"],
+        "https://www.si.usi.ch/assets/publications/conf/softvis/softvis2008/WettelL08.pdf",//url
         //publication
-        "",
+        "Proceedings of the 4th ACM Symposium on Software Visualization",
         //innerContent
         {
             Abstract:"",
@@ -2464,26 +2464,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2012-Cloud-Word-89",//id
-        "",//name
+        "2009-Cloud-Word-89",//id
+        "Cloud(2009)",//name
         //title
-        "",
-        "",//year
+        "Participatory visualization with wordle",
+        "2009",//year
         //authors
-        "",
+        "Fernanda B. Viégas, Martin Wattenberg, and Jonathan Feinberg",
         //picturePath
         "../picture100/2012-Cloud-Word.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text"],"Cloud"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/5290722",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 15, Issue: 6, Nov.-Dec. 2009)",
         //innerContent
         {
             Abstract:"",
@@ -2493,25 +2493,25 @@ export let paper = [
     ),
     new Content(
         "2004-Flow-History-90",//id
-        "",//name
+        "Flow(2004)",//name
         //title
-        "",
-        "",//year
+        "Studying Cooperation and Conflict between Authors with history flow Visualizations",
+        "2004",//year
         //authors
-        "",
+        "Fernanda B. Viégas, Martin Wattenberg,Kushal Dave",
         //picturePath
         "../picture100/2004-Flow-History.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Time"],"Flow"],
         //application 应用场景
-        [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
-        [""],
+        ["Academic"],
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Present"],
+        "https://flosshub.org/sites/flosshub.org/files/viegaswattenbergdave.pdf",//url
         //publication
-        "",
+        "Proceedings of the SIGCHI conference on Human factors in computing systems",
         //innerContent
         {
             Abstract:"",
@@ -2533,7 +2533,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2561,7 +2561,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2589,7 +2589,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2617,7 +2617,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2645,7 +2645,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2673,7 +2673,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2701,7 +2701,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2729,7 +2729,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2757,7 +2757,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2785,7 +2785,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2813,7 +2813,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2841,7 +2841,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2869,7 +2869,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2897,7 +2897,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2925,7 +2925,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2953,7 +2953,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -2981,7 +2981,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3009,7 +3009,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3037,7 +3037,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3065,7 +3065,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3093,7 +3093,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3121,7 +3121,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3149,7 +3149,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3177,7 +3177,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3205,7 +3205,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3233,7 +3233,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3261,7 +3261,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3289,7 +3289,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3317,7 +3317,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3345,7 +3345,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3373,7 +3373,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3402,7 +3402,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3430,7 +3430,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3458,7 +3458,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3486,7 +3486,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3514,7 +3514,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3542,7 +3542,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3570,7 +3570,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3598,7 +3598,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3626,7 +3626,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3654,7 +3654,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3682,7 +3682,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3710,7 +3710,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3738,7 +3738,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3766,7 +3766,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3795,7 +3795,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3823,7 +3823,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3851,7 +3851,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3879,7 +3879,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3907,7 +3907,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3935,7 +3935,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3963,7 +3963,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -3991,7 +3991,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -4019,7 +4019,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -4047,7 +4047,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],
@@ -4075,7 +4075,7 @@ export let paper = [
         ["","","",""],
         //application 应用场景
         [""],
-        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
         [""],

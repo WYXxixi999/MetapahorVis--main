@@ -28,10 +28,10 @@ export class Content {
 }
 /*
     application 应用场景 对照表1~13：
-        1.生物医疗  BioloMedical(BM)
+        1.生物医疗  BiologyMedical(BM)
         2.学术      Academic
         3.金融      Financial
-        4.地理      Geography
+        4.地理探测  Geography
         5.数字人文  DigitHumanities(DH)
         6.科学实验  SciExperiment
         7.网络安全  NetworkSecurity(NS)

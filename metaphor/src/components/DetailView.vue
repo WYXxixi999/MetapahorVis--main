@@ -20,7 +20,9 @@
       <div class="text">
         <div class="title">{{ props.content.name }}</div>
         <div class="authors">{{ props.content.authors }}</div>
-        <a class="typeTitleConstructMethod">constructMethod & Task & Application:</a>
+        <a class="typeTitleConstructMethod"
+          >constructMethod & Task & Application:</a
+        >
         <a class="constructMethod">{{ props.content.constructMethod }}</a>
         <a class="task">{{ props.content.task }}</a>
         <a class="application">{{ props.content.application }}</a>
@@ -81,7 +83,27 @@ function CloseWindow() {
       left: 270px;
     }
     .authors {
+      // div{
+      //   width: 400px;
+      //   height:100px;
+      //   border: 5px solid green;
+      //   //margin: 10px;
+      //   overflow: scroll;
+      //   line-height: 110%;
+      //   font-size: 18px;
+      // }
+      //border: 1px solid rgb(114, 143, 114);
+      height:42px;
+      margin: 10px;
+      width: 650px;
       font-size: 18px;
+      line-height: 110%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: break-all;  /* break-all(允许在单词内换行。) */	
+      display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+      -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+      -webkit-line-clamp: 2; /** 显示的行数 **/
     }
   }
 
@@ -111,8 +133,8 @@ function CloseWindow() {
 
 .detailcontent {
   position: absolute;
-  top: 200px;
-  left: 295px;
+  top: 230px;
+  left: 300px;
   /* border-top-width:0px;
 	border-left-width:2px;
 	border-bottom-width:2px;
@@ -120,8 +142,8 @@ function CloseWindow() {
 }
 .publication {
   position: absolute;
-  top: 180px;
-  left: 295px;
+  top: 210px;
+  left: 300px;
   /* border-top-width:0px;
 	border-left-width:2px;
 	border-bottom-width:2px;
@@ -129,8 +151,8 @@ function CloseWindow() {
 }
 .publicationTitle {
   position: absolute;
-  top: 165px;
-  left: 295px;
+  top: 195px;
+  left: 300px;
   font-size: 15px;
   font-weight: bolder;
   /* border-top-width:0px;
@@ -138,29 +160,26 @@ function CloseWindow() {
 	border-bottom-width:2px;
 	border-right-width:2px; */
 }
-.typeTitleConstructMethod{
+.typeTitleConstructMethod {
   position: absolute;
-  top: 70px;
-  left: 295px;
+  top: 100px;
+  left: 300px;
   font-size: 15px;
   font-weight: bolder;
 }
 .constructMethod {
   position: absolute;
-  top: 90px;
-  left: 295px;
-
+  top: 120px;
+  left: 300px;
 }
 .task {
   position: absolute;
-  top: 110px;
-  left: 295px;
-
+  top: 140px;
+  left: 300px;
 }
 .application {
   position: absolute;
-  top: 130px;
-  left: 295px;
-
+  top: 160px;
+  left: 300px;
 }
 </style>
