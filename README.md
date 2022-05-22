@@ -1,1 +1,3 @@
 # MetaphorVis
+
+npm run dev
