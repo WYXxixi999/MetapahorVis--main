@@ -33,10 +33,10 @@ const show_cards = computed(() => {
         if (filter == "All") return true;
         else if (filter !== "") {
           console.log("filter:", filter);
-          if (typeof filter == "object") {//我也忘了为什么要判断这是object  这是object又怎样
+          if (typeof filter == "object") {//如果是object 就是
             //console.log("选中数据类型（是一个数组）");
             console.log("d.group", d.group);
-            if (d.group[2].includes("Text")) {
+            if (d.group[2].includes("Text")) {//测试筛选数据类型为Text
               return true;
             }
             else return false;
@@ -63,7 +63,7 @@ function Filter(filter_index, condition) {
 const detailView = ref(null);
 function ShowDetailWindow(content, card_rect) {
   data.detail_window.x = card_rect.x - card_rect.width * 2;
-  data.detail_window.y = card_rect.y + card_rect.height / 2;
+  data.detail_window.y = card_rect.y + card_rect.height / 2 ;
 
   let w = window.innerWidth;
   if (data.detail_window.x <= 0) {
@@ -85,55 +85,100 @@ function ShowDetailWindow(content, card_rect) {
       <div class="function-row">
         <div class="function-group">
           <div>MetaphorTypes</div>
+          <el-tooltip class="item" effect="light" content="All" placement="top">
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
             @click="Filter(0, 'All')"
           >
-            <!-- 映射种类 选中All (0：是group第一个维度，"All":名字叫All)-->
-            <!-- 2022-5-14:还少一个Tooltip -->
+            <!-- 第一组：隐喻类型：形式隐喻、交互隐喻 
+              选中All (0：是group第一个维度，"All":名字叫All)-->
 
             <el-icon color="white"><aim /></el-icon>
           </el-button>
+          </el-tooltip>
 
+            <el-tooltip class="item" effect="light" content="Form" placement="top">
             <el-button
               color="rgb(72, 124, 198)"
               type="primary"
               @click="Filter(0, 'Form')"
             >
-              <!-- 映射种类 选中Form (0：是group第一个维度，"Form":形式隐喻)-->
+              <!-- 形式隐喻Form 选中Form (0：是group第一个维度，"Form":形式隐喻)-->
 
               <el-icon color="white"><aim /></el-icon>
             </el-button>
-          
-
+          </el-tooltip>
+            <!-- 交互隐喻 Interaction  (0：是group第一个维度，"Interaction":形式隐喻-->
+           <el-tooltip class="item" effect="light" content="Interaction" placement="top">
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
             @click="Filter(0, 'Interaction')"
           >
-            <!-- 映射种类 选中Interaction (0：是group第一个维度，"Interaction":交互隐喻)-->
-
             <el-icon color="white"><aim /></el-icon>
           </el-button>
+          </el-tooltip>
         </div>
 
+        <!-- 第2组：映射种类 ： 自然景观Z  人造实体R  非实体F  动作D  可视化启发K -->
         <div class="function-group">
           <div>MappingTypes</div>
+          <!-- 自然景观Z -->
+          <el-tooltip class="item" effect="light" content="Natural Landscape" placement="top">
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
-            @click="Filter(1, '')"
+            @click="Filter(1, 'Z')"
           >
             <el-icon color="white"><aim /></el-icon>
           </el-button>
+          </el-tooltip>
+
+          <!-- 人造实体R -->
+          <el-tooltip class="item" effect="light" content="Man-made" placement="top">
           <el-button
             color="rgb(72, 124, 198)"
             type="primary"
-            @click="Filter(1, 'd3')"
+            @click="Filter(1, 'R')"
           >
             <el-icon color="white"><aim /></el-icon>
           </el-button>
+          </el-tooltip>
+
+          <!-- 非实体F -->
+          <el-tooltip class="item" effect="light" content="Non-physical" placement="top">
+          <el-button
+            color="rgb(72, 124, 198)"
+            type="primary"
+            @click="Filter(1, 'F')"
+          >
+            <el-icon color="white"><aim /></el-icon>
+          </el-button>
+          </el-tooltip>
+
+          <!-- 动作D -->
+          <el-tooltip class="item" effect="light" content="Action" placement="top">
+          <el-button
+            color="rgb(72, 124, 198)"
+            type="primary"
+            @click="Filter(1, 'D')"
+          >
+            <el-icon color="white"><aim /></el-icon>
+          </el-button>
+          </el-tooltip>
+
+          <!-- 可视化启发 -->
+          <el-tooltip class="item" effect="light" content="Visualization Inspiration" placement="top">
+          <el-button
+            color="rgb(72, 124, 198)"
+            type="primary"
+            @click="Filter(1, 'K')"
+          >
+            <el-icon color="white"><aim /></el-icon>
+          </el-button>
+          </el-tooltip>
+          
         </div>
 
         <div class="function-group">
