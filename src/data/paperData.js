@@ -1072,7 +1072,7 @@ export let paper = [
         //authors
         "Bongshin Lee, Petra Isenberg, Nathalie Henry Riche, and Sheelagh Carpendale",
         //picturePath
-        "../picture100/2012-Filter-Flow-Interaction.png",
+        "../picture100/2012-Filtering-Flow-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
         ["Interaction","D",["Spatial"],"Filtering"],
         //application 应用场景
@@ -2472,7 +2472,7 @@ export let paper = [
         //authors
         "Fernanda B. Viégas, Martin Wattenberg, and Jonathan Feinberg",
         //picturePath
-        "../picture100/2012-Cloud-Word.png",
+        "../picture100/2009-Cloud-Word.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
         ["Form","Z",["Text"],"Cloud"],
         //application 应用场景
@@ -2521,25 +2521,25 @@ export let paper = [
     ),
     new Content(
         "2003-Pebble-HierarchyData-91",//id
-        "",//name
+        "Pebble(2003)",//name
         //title
-        "",
-        "",//year
+        "pebbles - using Circular Treemaps to visualize disk usage",
+        "2003",//year
         //authors
-        "",
+        "Kai Wetzel",
         //picturePath
         "../picture100/2003-Pebble-HierarchyData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Hierachy"],"Pebble"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "http://lip.sourceforge.net/ctreemap.html.",//url
         //publication
-        "",
+        "",//no publication find
         //innerContent
         {
             Abstract:"",
@@ -2548,26 +2548,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2014-River-dataStatistic-92",//id
-        "",//name
+        "2014-River-DataStatistic-92",//id
+        "River(2014)",//name
         //title
-        "",
-        "",//year
+        "State-of-the-Art Report of Visual Analysis for Event Detection in Text Data Streams",
+        "2014",//year
         //authors
-        "",
+        "F. Wanner, A. Stoffel, D. Jäckle, B. C. Kwon, A. Weiler, and D. A. Keim",
         //picturePath
         "../picture100/2014-River-dataStatistic.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text"],""],
         //application 应用场景
-        [""],
+        ["Academic"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Summarize"],
+        "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.691.7800&rep=rep1&type=pdf",//url
         //publication
-        "",
+        "EuroVis (STARs)",
         //innerContent
         {
             Abstract:"",
@@ -2577,25 +2577,25 @@ export let paper = [
     ),
     new Content(
         "2018-ScreenShot-Medical-93",//id
-        "",//name
+        "ScreenShot(2018)",//name
         //title
-        "",
-        "",//year
+        "TapVis: A Data Visualization Approach for Assessment of Alternating Tapping Performance in Patients with Parkinson’s Disease",
+        "2018",//year
         //authors
-        "",
+        "I. Jusufi, M. Memedi and D. Nyholm",
         //picturePath
         "../picture100/2018-ScreenShot-Medical.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"ScreenShot"],
         //application 应用场景
-        [""],
+        ["BiologyMedical"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://diglib.eg.org/bitstream/handle/10.2312/eurovisshort20181078/055-059.pdf?sequence=1&isAllowed=n",//url
         //publication
-        "",
+        "Proceedings of the Eurographics/IEEE VGTC Conference on Visualization: Short Papers",
         //innerContent
         {
             Abstract:"",
@@ -2605,25 +2605,25 @@ export let paper = [
     ),
     new Content(
         "2018-MultiRing-TimeSeries-94",//id
-        "",//name
+        "MultiRing(2018)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Functional Regions by Analysis of Geo-textual Data",
+        "2018",//year
         //authors
-        "",
+        "Yunzhe Wang, George Baciu and Chenhui Li",
         //picturePath
         "../picture100/2018-MultiRing-TimeSeries.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Time","Text"],"Ring"],
         //application 应用场景
-        [""],
+        ["SocialMedia"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Summarze"],
+        "http://chenhui.li/documents/FunRegions-EuroVis18-Short.pdf",//url
         //publication
-        "",
+        "EuroVis (Short Papers)",
         //innerContent
         {
             Abstract:"",
@@ -2633,25 +2633,25 @@ export let paper = [
     ),
     new Content(
         "2018-Clock-Time-95",//id
-        "",//name
+        "Clock(2018)",//name
         //title
-        "",
-        "",//year
+        "Sketching Temporal Uncertainty - An Exploratory User Study",
+        "2018",//year
         //authors
-        "",
+        "Fabian Schwarzinger†, Andreas Roschal, and Theresia Gschwandtner",
         //picturePath
         "../picture100/2018-Clock-Time.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Time"],"Clock"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "https://www.cvast.tuwien.ac.at/sites/default/files/schwarzinger_eurovis2018_preprint.pdf",//url
         //publication
-        "",
+        "EuroVis (Short Papers)",
         //innerContent
         {
             Abstract:"",
@@ -2661,25 +2661,25 @@ export let paper = [
     ),
     new Content(
         "2018-UndirectedRootedTree-HierachyData-96",//id
-        "",//name
+        "Undirected Rooted Tree(2018)",//name
         //title
-        "",
-        "",//year
+        "MVN-Reduce: Dimensionality Reduction for the Visual Analysis of Multivariate Networks",
+        "2018",//year
         //authors
-        "",
+        "R. M. Martins, J. F. Kruiger, R. Minghim, A. C. Telea, and A. Kerren",
         //picturePath
         "../picture100/2018-UndirectedRootedTree-HierachyData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Hierachy"],"Tree"],
         //application 应用场景
-        [""],
+        ["BiologyMedical"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Summarize"],
+        "https://webspace.science.uu.nl/~telea001/uploads/PAPERS/EuroVis17/paper2.pdf",//url
         //publication
-        "",
+        "EuroVis (Short Papers)",
         //innerContent
         {
             Abstract:"",
@@ -2689,25 +2689,25 @@ export let paper = [
     ),
     new Content(
         "2017-NodeLink-Relation-97",//id
-        "",//name
+        "NodeLink(2017)",//name
         //title
-        "",
-        "",//year
+        "MVN-Reduce: Dimensionality Reduction for the Visual Analysis of Multivariate Networks",
+        "2017",//year
         //authors
-        "",
+        "R. M. Martins, J. F. Kruiger, R. Minghim, A. C. Telea, and A. Kerren",
         //picturePath
         "../picture100/2017-NodeLink-Relation.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["Text"],"NodeLink"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Discover","Present"],
+        "https://webspace.science.uu.nl/~telea001/uploads/PAPERS/EuroVis17/paper2.pdf",//url
         //publication
-        "",
+        "EuroVis (Short Papers)",
         //innerContent
         {
             Abstract:"",
@@ -2717,25 +2717,25 @@ export let paper = [
     ),
     new Content(
         "2015-Piling-TimeSeries-98",//id
-        "",//name
+        "Piling(2015)",//name
         //title
-        "",
-        "",//year
+        "Small MultiPiles: Piling Time to Explore Temporal Patterns in Dynamic Networks",
+        "2015",//year
         //authors
-        "",
+        "B. Bach, N. Henry-Riche, T. Dwyer, T. Madhyastha, J-D. Fekete and T. Grabowski",
         //picturePath
         "../picture100/2015-Piling-TimeSeries.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","D",["Time"],"Piling"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12615",//url
         //publication
-        "",
+        "Computer Graphics Forum. 2015, 34(3): 31-40",
         //innerContent
         {
             Abstract:"",
@@ -2745,25 +2745,25 @@ export let paper = [
     ),
     new Content(
         "2015-StreamFeather-Vector-99",//id
-        "",//name
+        "StreamFeather(2015)",//name
         //title
-        "",
-        "",//year
+        "Vector Field Visualization of Advective-Diffusive Flows",
+        "2015",//year
         //authors
-        "",
+        "H. Hochstetter, M. Wurm and A. Kolb",
         //picturePath
         "../picture100/2015-StreamFeather-Vector.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Flow"],"Feather"],
         //application 应用场景
         [""],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Discover","Explore"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12660",//url
         //publication
-        "",
+        "Computer Graphics Forum. 2015, 34(3): 481-490.",
         //innerContent
         {
             Abstract:"",
@@ -2773,25 +2773,25 @@ export let paper = [
     ),
     new Content(
         "2015-Temperature-Flood-100",//id
-        "",//name
+        "Temperature(2015)",//name
         //title
-        "",
-        "",//year
+        "Visualization of Object-Centered Vulnerability to Possible Flood Hazards",
+        "2015",//year
         //authors
-        "",
+        "D. Cornel,A. Konev,B. Sadransky,Z. Horváth,E. Gröller,J. Waser",
         //picturePath
         "../picture100/2015-Temperature-Flood.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","F",["Event"],"Temperature"],
         //application 应用场景
-        [""],
+        ["Geography"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present","Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12645",//url
         //publication
-        "",
+        "Computer Graphics Forum. Vol. 34. No. 3. 2015.",
         //innerContent
         {
             Abstract:"",
@@ -2801,25 +2801,25 @@ export let paper = [
     ),
     new Content(
         "2014-Tangram-VisitMuseum-101",//id
-        "",//name
+        "Tangram(2014)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Proximity-Based Spatiotemporal Behavior of Museum Visitors using Tangram Diagrams",
+        "2014",//year
         //authors
-        "",
+        "J. Lanir, P. Bak and T. Kuflik",
         //picturePath
         "../picture100/2014-Tangram-VisitMuseum.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["Text"],"Tangram"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12382",//url
         //publication
-        "",
+        "Computer Graphics Forum. 2014, 33(3): 261-270",
         //innerContent
         {
             Abstract:"",
@@ -2829,25 +2829,25 @@ export let paper = [
     ),
     new Content(
         "2014-Bar-Fraction-102",//id
-        "",//name
+        "Bar(2014)",//name
         //title
-        "",
-        "",//year
+        "Visual Analysis of Time-Series Similarities for Anomaly Detection in Sensor Networks",
+        "2014",//year
         //authors
-        "",
+        "Martin Steiger, Jürgen Bernard, Sebastian Mittelstädt, Hendrik Lücke-Tieke, Daniel Keim, Thorsten May, Jörn Kohlhammer",
         //picturePath
         "../picture100/2014-Bar-Fraction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","F",["Time"],"Bar"],
         //application 应用场景
-        [""],
+        ["NetworkScurity"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12396",//url
         //publication
-        "",
+        "Computer graphics forum. Vol. 33. No. 3. 2014",
         //innerContent
         {
             Abstract:"",
@@ -2857,25 +2857,25 @@ export let paper = [
     ),
     new Content(
         "2014-Map-Recommadation-103",//id
-        "",//name
+        "Map(2014)",//name
         //title
-        "",
-        "",//year
+        "Visualizing Graphs as Maps with Contiguous Regions",
+        "2014",//year
         //authors
-        "",
+        "Stephen G. Kobourov, Sergey Pupyrev and Paolo Simonetto",
         //picturePath
         "../picture100/2014-Map-Recommadation.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"Map"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Derive"],
+        "https://www.cs.arizona.edu/sites/default/files/TR14-02.pdf",//url
         //publication
-        "",
+        "EuroVis (Short Papers). 2014",
         //innerContent
         {
             Abstract:"",
@@ -2885,25 +2885,25 @@ export let paper = [
     ),
     new Content(
         "2014-Clock-SpatioTemporal-104",//id
-        "",//name
+        "Clock(2014)",//name
         //title
-        "",
-        "",//year
+        "Comparing Three Designs of Macro-Glyphs for Poetry Visualization",
+        "2014",//year
         //authors
-        "",
+        "Alfie Abdul-Rahman, Eamonn Maguire, and Min Chen",
         //picturePath
         "../picture100/2014-Clock-SpatioTemporal.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Spatial"],"Clock"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Browse"],
+        "https://diglib.eg.org/bitstream/handle/10.2312/eurovisshort.20141165.103-107/103-107.pdf?sequence=1&isAllowed=y",//url
         //publication
-        "",
+        "In Proceedings of EuroVis 2014 ‚Short Paper, 2014",
         //innerContent
         {
             Abstract:"",
@@ -2912,26 +2912,26 @@ export let paper = [
         }
     ),
     new Content(
-        "2013-Light-Variation-105",//id
-        "",//name
+        "2013-Lamp-Variation-105",//id
+        "Lamp(2013)",//name
         //title
-        "",
-        "",//year
+        "A Visual Approach to Investigating Shared and Global Memory Behavior of CUDA Kernels",
+        "2013",//year
         //authors
-        "",
+        "Paul Rosen†",
         //picturePath
-        "../picture100/2013-Light-Variation.png",
+        "../picture100/2013-Lamp-Variation.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Spatial"],"Lamp"],
         //application 应用场景
-        [""],
+        ["SoftwareEngineer"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present","Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12103",//url
         //publication
-        "",
+        "Computer Graphics Forum. Vol. 32. No. 3pt2. Oxford, UK: Blackwell Publishing Ltd, 2013",
         //innerContent
         {
             Abstract:"",
@@ -2941,25 +2941,25 @@ export let paper = [
     ),
     new Content(
         "2013-Sketching-Geological-106",//id
-        "",//name
+        "Sketching(2013)",//name
         //title
-        "",
-        "",//year
+        "Rapid Sketch-based 3D Modeling of Geology",
+        "2013",//year
         //authors
-        "",
+        "E. M. Lidal, D. Patel, M. Bendiksen, T. Langeland, and I. Viola",
         //picturePath
         "../picture100/2013-Sketching-Geological.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","D",["Spatial"],"Painting"],
         //application 应用场景
-        [""],
+        ["Geography"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "http://www.ii.uib.no/vis_old/publications/pdfs/Lidal13Rapid.pdf",//url
         //publication
-        "",
+        "EnvirVis@ EuroVis. 2013",
         //innerContent
         {
             Abstract:"",
@@ -2969,25 +2969,25 @@ export let paper = [
     ),
     new Content(
         "2012-Glyph-Sports-107",//id
-        "",//name
+        "Glyph(2012)",//name
         //title
-        "",
-        "",//year
+        "MatchPad: Interactive Glyph-Based Visualization for Real-Time Sports Performance Analysis",
+        "2012",//year
         //authors
-        "",
+        "P. A. Legg, D. H. S. Chung M. L. Parry, M. W. Jones, R. Long, I. W. Griffifiths and M. Chen",
         //picturePath
         "../picture100/2012-Glyph-Sports.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["Volume"],"Glyph"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2012.03118.x",//url
         //publication
-        "",
+        "Computer graphics forum.Vol.31.No.3pt4. Oxford, UK: Blackwell Publishing Ltd, 2012",
         //innerContent
         {
             Abstract:"",
@@ -2997,25 +2997,25 @@ export let paper = [
     ),
     new Content(
         "2012-Clock-TimeSeries-108",//id
-        "",//name
+        "Clock(2012)",//name
         //title
-        "",
-        "",//year
+        "ClockMap: Enhancing Circular Treemaps with Temporal Glyphs for Time-Series Data",
+        "2012",//year
         //authors
-        "",
+        "Fabian Fischer, Johannes Fuchs and Florian Mansmann",
         //picturePath
         "../picture100/2012-Clock-TimeSeries.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Time","Hierachy"],"Clock"],
         //application 应用场景
-        [""],
+        ["NetworkScurity"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.687.1632&rep=rep1&type=pdf",//url
         //publication
-        "",
+        "EuroVis (Short Papers). 2012",
         //innerContent
         {
             Abstract:"",
@@ -3025,25 +3025,25 @@ export let paper = [
     ),
     new Content(
         "2012-RubbleBand-Path-109",//id
-        "",//name
+        "RubbleBand(2012)",//name
         //title
-        "",
-        "",//year
+        "Travel-Route-Centered Metro Map Layout and Annotation",
+        "2012",//year
         //authors
-        "",
+        "Hsiang-Yun Wu, Shigeo Takahashi, Chun-Cheng Lin, and Hsu-Chun Yen",
         //picturePath
         "../picture100/2012-RubbleBand-Path.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Spatial"],"RubbleBand"],
         //application 应用场景
-        [""],
+        ["Geography"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2012.03085.x",//url
         //publication
-        "",
+        "Computer Graphics Forum. Oxford, UK: Blackwell Publishing Ltd, 2012, 31(3pt1): 925-934",
         //innerContent
         {
             Abstract:"",
@@ -3053,25 +3053,25 @@ export let paper = [
     ),
     new Content(
         "2012-BrickAndRibbon-Subset-110",//id
-        "",//name
+        "Brick and ribbon",//name
         //title
-        "",
-        "",//year
+        "StratomeX: Visual Analysis of Large-Scale Heterogeneous Genomics Data for Cancer Subtype Characterization",
+        "2012",//year
         //authors
-        "",
+        "A. Lex, M. Streit, H.-J. Schulz, C. Partl, D. Schmalstieg, P.J. Park and N. Gehlenborg",
         //picturePath
         "../picture100/2012-BrickAndRibbon-Subset.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Volume"],"Brick"],
         //application 应用场景
-        [""],
+        ["BiogolyMedical"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present","Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2012.03110.x",//url
         //publication
-        "",
+        "Computer graphics forum. Vol. 31. No. 3pt3. Oxford, UK: Blackwell Publishing Ltd, 2012",
         //innerContent
         {
             Abstract:"",
@@ -3081,25 +3081,25 @@ export let paper = [
     ),
     new Content(
         "2008-DyeAdvection-FlowVolumes-111",//id
-        "",//name
+        "Dye Advection(Flow)(2008)",//name
         //title
-        "",
-        "",//year
+        "Particle Level Set Advection for the Interactive Visualization of Unsteady 3D Flow",
+        "2008",//year
         //authors
-        "",
+        "Nicolas Cuntz , Andreas Kolb, Robert Strzodka, and Daniel Weiskopf",
         //picturePath
         "../picture100/2008-DyeAdvection-FlowVolumes.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Flow"],"Flow"],
         //application 应用场景
-        [""],
+        ["SciExperiment"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present","Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01200.x",//url
         //publication
-        "",
+        "Computer Graphics Forum. Vol. 27. No. 3. Oxford, UK: Blackwell Publishing Ltd, 2008",
         //innerContent
         {
             Abstract:"",
@@ -3109,25 +3109,25 @@ export let paper = [
     ),
     new Content(
         "2008-WeatherVane-Direction-112",//id
-        "",//name
+        "Weather Vane(2008)",//name
         //title
-        "",
-        "",//year
+        "Results of a User Study on 2D Hurricane Visualization",
+        "2008",//year
         //authors
-        "",
+        "Joel P. Martin, J. Edward Swan II, Robert J. Moorhead II, Zhanping Liu, and Shangshu Cai",
         //picturePath
         "../picture100/2008-WeatherVane-Direction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","F",["Spatial"],"WeatherVane"],
         //application 应用场景
-        [""],
+        ["Geography"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01234.x",//url
         //publication
-        "",
+        "Computer Graphics Forum. Oxford, UK: Blackwell Publishing Ltd, 2008, 27(3): 991-998",
         //innerContent
         {
             Abstract:"",
@@ -3137,25 +3137,25 @@ export let paper = [
     ),
     new Content(
         "2021-Flow-FluidAndFlow-113",//id
-        "",//name
+        "Flow(2021)",//name
         //title
-        "",
-        "",//year
+        "SurfRiver: Flattening Stream Surfaces for Comparative Visualization",
+        "2021",//year
         //authors
-        "",
+        "Jun Zhang, Jun Tao,Jian-Xun Wang, and Chaoli Wang",
         //picturePath
         "../picture100/2021-Flow-FluidAndFlow.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Flow"],"Flow"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "https://ieeexplore.ieee.org/abstract/document/9410458",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics, 2021, 27(6): 2783-2795.",
         //innerContent
         {
             Abstract:"",
@@ -3165,25 +3165,25 @@ export let paper = [
     ),
     new Content(
         "2021-Map-Text-114",//id
-        "",//name
+        "Map(2021)",//name
         //title
-        "",
-        "",//year
+        "On the Readability of Abstract Set Visualizations",
+        "2021",//year
         //authors
-        "",
+        "Markus Wallinger, Ben Jacobsen, Stephen Kobourov, and Martin N¨ollenburg",
         //picturePath
         "../picture100/2021-Map-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"Map"],
         //application 应用场景
-        [""],
+        ["DigitalHumanites"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present","Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/9410458",//url
         //publication
-        "",
+        " IEEE Transactions on Visualization and Computer Graphics, 2021, 27(6): 2821-2832.",
         //innerContent
         {
             Abstract:"",
@@ -3193,25 +3193,25 @@ export let paper = [
     ),
     new Content(
         "2020-Tree-MergeHierarchies-115",//id
-        "",//name
+        "Tree(2020)",//name
         //title
-        "",
-        "",//year
+        "PansyTree: Merging Multiple Hierarchies",
+        "2020",//year
         //authors
-        "",
+        "Yu Dong, Alex Fauth, Maolin Huang, Yi Chen, Jie Liang",
         //picturePath
         "../picture100/2020-Tree-MergeHierarchies.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Hierachy"],"Tree"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/9086199",//url
         //publication
-        "",
+        "2020 IEEE Pacific Visualization Symposium (PacificVis). IEEE, 2020: 131-135",
         //innerContent
         {
             Abstract:"",
@@ -3221,25 +3221,25 @@ export let paper = [
     ),
     new Content(
         "2020-HandleBar-Interaction-116",//id
-        "",//name
+        "HandleBar(2020)",//name
         //title
-        "",
-        "",//year
+        "Immersive WYSIWYG (What You See is What You Get) Volume Visualization",
+        "2020",//year
         //authors
-        "",
+        "Song Wang*, Dong Zhu, Hao Yu, Yadong Wu",
         //picturePath
         "../picture100/2020-HandleBar-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Volume"],"HandleBar"],
         //application 应用场景
-        [""],
+        ["BiologyMedical","HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/9086206",//url
         //publication
-        "",
+        "2020 IEEE Pacific Visualization Symposium (PacificVis). IEEE, 2020: 166-170",
         //innerContent
         {
             Abstract:"",
@@ -3249,25 +3249,25 @@ export let paper = [
     ),
     new Content(
         "2020-IcicleExtend-Hierachy-117",//id
-        "",//name
+        "Icicle Extend(2020)",//name
         //title
-        "",
-        "",//year
+        "Space-Reclaiming Icicle Plots",
+        "2020",//year
         //authors
-        "",
+        "Huub van de Wetering* Nico Klaassen †, Michael Burch ‡",
         //picturePath
         "../picture100/2020-IcicleExtend-Hierachy.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Hierachy"],"Icicle"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/9086292",//url
         //publication
-        "",
+        "2020 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3277,25 +3277,25 @@ export let paper = [
     ),
     new Content(
         "2019-TrafficLight-Color-118",//id
-        "",//name
+        "Traffic Light(2019)",//name
         //title
-        "",
-        "",//year
+        "Comparison of Projective Augmented Reality Concepts to Support Medical Needle Insertion",
+        "2019",//year
         //authors
-        "",
+        "Florian Heinrich, Fabian Joeres, Kai Lawonn, Christian Hansen",
         //picturePath
         "../picture100/2019-TrafficLight-Color.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["MetaData"],"Lamp"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/8667734",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 25, Issue: 6, June 1 2019)",
         //innerContent
         {
             Abstract:"",
@@ -3305,25 +3305,25 @@ export let paper = [
     ),
     new Content(
         "2018-ClockAndCalendar-AuditLog-119",//id
-        "",//name
+        "Clock and Calendar(2018)",//name
         //title
-        "",
-        "",//year
+        "LongLine: Visual Analytics System for Large-scale Audit Logs",
+        "2018",//year
         //authors
-        "",
+        "Seunghoon Yoo, Jaemin Jo, Bohyoung Kim∗, Jinwook Seo,∗",
         //picturePath
         "../picture100/2018-ClockAndCalendar-AuditLog.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text","Time"],"Clock"],
         //application 应用场景
-        [""],
+        ["SoftwareEngineer"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://www.sciencedirect.com/science/article/pii/S2468502X18300159",//url
         //publication
-        "",
+        "Visual Informatics, 2018, 2(1): 82-97.",
         //innerContent
         {
             Abstract:"",
@@ -3333,25 +3333,25 @@ export let paper = [
     ),
     new Content(
         "2018-Wedge-Anomaly-120",//id
-        "",//name
+        "Wedge(2018)",//name
         //title
-        "",
-        "",//year
+        "Visual Analysis of Collective Anomalies Through High-Order Correlation Graph",
+        "2018",//year
         //authors
-        "",
+        "Jun Tao,Lei Shi,Zhou Zhuang,Congcong Huang,Rulei Yu,Purui Su,Chaoli Wang,Yang Chen",
         //picturePath
         "../picture100/2018-Wedge-Anomaly.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["Time"],"Wedge"],
         //application 应用场景
-        [""],
+        ["SoftwareEngineer","NetworkScurity"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Discover"],
+        "https://ieeexplore.ieee.org/abstract/document/8365987",//url
         //publication
-        "",
+        "2018 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3361,25 +3361,25 @@ export let paper = [
     ),
     new Content(
         "2018-Radar-Monitor-121",//id
-        "",//name
+        "Radar(2018)",//name
         //title
-        "",
-        "",//year
+        "A Visual Analytics Approach for Equipment Condition Monitoring in Smart Factories of Process Industry",
+        "2018",//year
         //authors
-        "",
+        "Wenchao Wu∗,Yixian Zheng†,Kaiyuan Chen‡,Xiangyu Wang§,Nan Cao¶",
         //picturePath
         "../picture100/2018-Radar-Monitor.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text","Time"],"Radar"],
         //application 应用场景
-        [""],
+        ["IndustryManufacture"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/8365986",//url
         //publication
-        "",
+        "2018 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3390,25 +3390,25 @@ export let paper = [
     /***************************************************** 122在下面几个************************************************** */
     new Content(
         "2017-Retractor-DataFeature-123",//id
-        "",//name
+        "Retractor(2017)",//name
         //title
-        "",
-        "",//year
+        "Virtual Retractor: An Interactive Data Exploration System Using Physically Based Deformation",
+        "2017",//year
         //authors
-        "",
+        "Cheng Li*,Xin Tong†,Han-Wei Shen‡",
         //picturePath
         "../picture100/2017-Retractor-DataFeature.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["MetaData"],"Retractor"],
         //application 应用场景
-        [""],
+        ["BiologyMedical"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Browse"],
+        "https://ieeexplore.ieee.org/abstract/document/8031579",//url
         //publication
-        "",
+        "2017 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3418,25 +3418,25 @@ export let paper = [
     ),
     new Content(
         "2017-TrapezoidGlyph-EventFeaure-124",//id
-        "",//name
+        "Trapezoid(2017)",//name
         //title
-        "",
-        "",//year
+        "MobiSeg: Interactive Region Segmentation Using Heterogeneous Mobility Data",
+        "2017",//year
         //authors
-        "",
+        "Wenchao Wu, Yixian Zheng∗,Nan Cao†,Haipeng Zeng, Bing Ni, Huamin Qu‡,Lionel M. Ni§",
         //picturePath
         "../picture100/2017-TrapezoidGlyph-EventFeaure.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["Event"],"Trapezoid"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/8031583",//url
         //publication
-        "",
+        "2017 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3446,25 +3446,25 @@ export let paper = [
     ),
     new Content(
         "2017-Ring-Density-125",//id
-        "",//name
+        "Ring(2017)",//name
         //title
-        "",
+        "Range Likelihood Tree: A Compact and Effective Representation for Visual Exploration of Uncertain Data Sets",
         "",//year
         //authors
         "",
         //picturePath
         "../picture100/2017-Ring-Density.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["DataSet"],"Ring"],
         //application 应用场景
-        [""],
+        ["Geography"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/8031589",//url
         //publication
-        "",
+        "2017 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3474,25 +3474,25 @@ export let paper = [
     ),
     new Content(
         "2010-Table-MataData-122",//id
-        "",//name
+        "Table(2010)",//name
         //title
-        "",
+        "MediaTable: Interactive Categorization of Multimedia Collections",
         "",//year
         //authors
-        "",
+        "Ork de Rooij,Marcel Worring,Jarke J. van Wijk",
         //picturePath
         "../picture100/2010-Table-MataData.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["MetaData"],"Table"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Compare","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/5473200",//url
         //publication
-        "",
+        "IEEE Computer Graphics and Applications ( Volume: 30, Issue: 5, Sept.-Oct. 2010)",
         //innerContent
         {
             Abstract:"",
@@ -3502,25 +3502,25 @@ export let paper = [
     ),
     new Content(
         "2015-Lens-Interaction-126",//id
-        "",//name
+        "Lens(2015)",//name
         //title
-        "",
-        "",//year
+        "Interactive Streamline Exploration and Manipulation Using Deformation",
+        "2015",//year
         //authors
-        "",
+        "Xin Tong∗,Chun-Ming Chen∗,Han-Wei Shen∗,Pak Chung Wong†",
         //picturePath
         "../picture100/2015-Lens-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Flow"],"Lens"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Lookup"],
+        "https://ieeexplore.ieee.org/abstract/document/7156349",//url
         //publication
-        "",
+        "2015 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3530,25 +3530,25 @@ export let paper = [
     ),
     new Content(
         "2013-NodeLink-DynamicGraphs-127",//id
-        "",//name
+        "NodeLink(2013)",//name
         //title
-        "",
-        "",//year
+        "Smooth Bundling of Large Streaming and Sequence Graphs",
+        "2013",//year
         //authors
-        "",
+        "C. Hurter ∗,O. Ersoy †,A. Telea ‡",
         //picturePath
         "../picture100/2013-NodeLink-DynamicGraphs.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",[""],"NodeLink"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/6596126",//url
         //publication
-        "",
+        "2013 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3558,22 +3558,22 @@ export let paper = [
     ),
     new Content(
         "2013-NodelinkHeatmapRadial-Trace-128",//id
-        "",//name
+        "Nodelink(2013)",//name
         //title
-        "",
-        "",//year
+        "Visual Task Solution Strategies in Tree Diagrams",
+        "2013",//year
         //authors
-        "",
+        "Michael Burch∗, Gennady Andrienko†, Natalia Andrienko†, Markus H¨oferlin∗, Michael Raschke∗,and Daniel Weiskopf∗",
         //picturePath
         "../picture100/2013-NodelinkHeatmapRadial-Trace.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","K",["Hierachy"],"NodeLink"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
+        ["Summarize","Enjoy"],
         "",//url
         //publication
         "",
@@ -3586,25 +3586,25 @@ export let paper = [
     ),
     new Content(
         "2013-Lens-Interaction-129",//id
-        "",//name
+        "Lens(2013)",//name
         //title
-        "",
-        "",//year
+        "Exploring Entities in Text with Descriptive Non-photorealistic Rendering",
+        "2013",//year
         //authors
-        "",
+        "Meng-Wei Chang∗,Christopher Collins†",
         //picturePath
         "../picture100/2013-Lens-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Text"],"Lens"],
         //application 应用场景
-        [""],
+        ["DigitalHumanties"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Explore"],
+        "https://ieeexplore.ieee.org/abstract/document/6596122",//url
         //publication
-        "",
+        "2013 IEEE Pacific Visualization Symposium (PacificVis)",
         //innerContent
         {
             Abstract:"",
@@ -3614,25 +3614,25 @@ export let paper = [
     ),
     new Content(
         "2012-Map-DataSetRelation-130",//id
-        "",//name
+        "Map(2012)",//name
         //title
-        "",
-        "",//year
+        "Embedding, Clustering and Coloring for Dynamic Maps∗",
+        "2012",//year
         //authors
-        "",
+        "Yifan Hu†,Stephen G. Kobourov‡,Sankar Veeramoni§",
         //picturePath
         "../picture100/2012-Map-DataSetRelation.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Time"],"Map"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/6183571",//url
         //publication
-        "",
+        "2012 IEEE Pacific Visualization Symposium",
         //innerContent
         {
             Abstract:"",
@@ -3642,25 +3642,25 @@ export let paper = [
     ),
     new Content(
         "2020-MetroMap-Set-131",//id
-        "",//name
+        "MetroMap(2020)",//name
         //title
-        "",
-        "",//year
+        "MetroSets: Visualizing Sets as Metro Maps",
+        "2020",//year
         //authors
-        "",
+        "Ben Jacobsen, Markus Wallinger, Stephen Kobourov, and Martin N¨ollenburg",
         //picturePath
         "../picture100/2020-MetroMap-Set.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["DataSet"],"MetroMap"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Sumarize","Enjoy"],
+        "https://ieeexplore.ieee.org/abstract/document/9224192",//url
         //publication
-        "",
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 27, Issue: 2, Feb. 2021)",
         //innerContent
         {
             Abstract:"",
@@ -3670,25 +3670,25 @@ export let paper = [
     ),
     new Content(
         "2020-FingerMove-Interaction-132",//id
-        "",//name
+        "Finger Moving(2020)",//name
         //title
-        "",
-        "",//year
+        "Nailz: Sensing Hand Input with Touch Sensitive Nails",
+        "2020",//year
         //authors
-        "",
+        "DoYoung Lee,SooHwan Lee,Ian Oakley",
         //picturePath
         "../picture100/2020-FingerMove-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",[""],"FingerMove"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Lookup","Summarize"],
+        "https://dl.acm.org/doi/abs/10.1145/3313831.3376778",//url
         //publication
-        "",
+        "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 2020: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3698,25 +3698,25 @@ export let paper = [
     ),
     new Content(
         "2020-Ballon-Process-133",//id
-        "",//name
+        "Ballon(2020)",//name
         //title
-        "",
-        "",//year
+        "Storywell: Designing for Family Fitness App Motivation by Using Social Rewards and Reflection",
+        "2020",//year
         //authors
-        "",
+        "Herman Saksono, Carmen Castaneda-Sceppa, Jessica Hoffman,Vivien Morris, Magy Seif El-Nasr, Andrea G. Parker",
         //picturePath
         "../picture100/2020-Ballon-Process.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Event"],"Ballon"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy","Present"],
+        "https://dl.acm.org/doi/abs/10.1145/3313831.3376686",//url
         //publication
-        "",
+        "Proceedings of the 2020 CHI conference on human factors in computing systems. 2020: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3726,25 +3726,25 @@ export let paper = [
     ),
     new Content(
         "2020-Drawing-Interaction-134",//id
-        "",//name
+        "Drawing(2020)",//name
         //title
-        "",
-        "",//year
+        "Music Creation by Example",
+        "2020",//year
         //authors
-        "",
+        "Emma Frid,Celso Gomes,Zeyu Jin",
         //picturePath
         "../picture100/2020-Drawing-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",[""],"Painting"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Derive"],
+        "https://dl.acm.org/doi/abs/10.1145/3313831.3376514",//url
         //publication
-        "",
+        "Proceedings of the 2020 CHI conference on human factors in computing systems. 2020: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3754,25 +3754,25 @@ export let paper = [
     ),
     new Content(
         "2020-Caricature-Encode-135",//id
-        "",//name
+        "Caricature(2020)",//name
         //title
-        "",
-        "",//year
+        "Cheat Sheets for Data Visualization Techniques",
+        "2020",//year
         //authors
-        "",
+        "Zezhong Wang, Lovisa Sundin, Dave Murray-Rust, Benjamin Bach",
         //picturePath
         "../picture100/2020-Caricature-Encode.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"Cartoon"],
         //application 应用场景
-        [""],
+        ["SoftwareEngineer"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Derive"],
+        "https://dl.acm.org/doi/abs/10.1145/3313831.3376271",//url
         //publication
-        "",
+        "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 2020: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3783,25 +3783,25 @@ export let paper = [
     /****************************************没有编号********************************************  */
     new Content(
         "2019-Radar-Direction",//id
-        "",//name
+        "Radar(2019)",//name
         //title
-        "",
-        "",//year
+        "An Evaluation of Radar Metaphors for Providing Directional Stimuli Using Non-Verbal Sound",
+        "2019",//year
         //authors
-        "",
+        "Brendan Cassidy,Janet C Read,I Scott MacKenzie",
         //picturePath
         "../picture100/2019-Radar-Direction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Time"],"Radar"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Present"],
+        "https://dl.acm.org/doi/abs/10.1145/3290605.3300289",//url
         //publication
-        "",
+        "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 2019: 1-8.",
         //innerContent
         {
             Abstract:"",
@@ -3811,25 +3811,25 @@ export let paper = [
     ),
     new Content(
         "2019-Zipper-Path-136",//id
-        "",//name
+        "Zipper(2019)",//name
         //title
-        "",
-        "",//year
+        "PeerLens: Peer-inspired Interactive Learning Path Planning in Online Qestion Pool",
+        "2019",//year
         //authors
-        "",
+        "Meng Xia, Mingfei Sun, Huan Wei, Qing Chen, Yong Wang, Lei Shi, Huamin Qu, Xiaojuan Ma",
         //picturePath
         "../picture100/2019-Zipper-Path.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Text"],"Zipper"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Derive","Present"],
+        "https://dl.acm.org/doi/abs/10.1145/3290605.3300864",//url
         //publication
-        "",
+        "Proceedings of the 2019 CHI conference on human factors in computing systems. 2019: 1-12.",
         //innerContent
         {
             Abstract:"",
@@ -3839,25 +3839,25 @@ export let paper = [
     ),
     new Content(
         "2019-CaricatureBook-Interaction-137",//id
-        "",//name
+        "Caricature Book(2019)",//name
         //title
-        "",
-        "",//year
+        "DataToon: Drawing Data Comics About Dynamic Networks with Pen + Touch Interaction",
+        "2019",//year
         //authors
-        "",
+        "Nam Wook Kim,Nathalie Henry Riche, Benjamin Bach, Guanpeng Xu, Matthew Brehmer,Ken Hinckley, Michel Pahud, Haijun Xia, Michael J. McGuffin6 Hanspeter Pfister",
         //picturePath
         "../picture100/2019-CaricatureBook-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Text"],"CaricatureBook"],
         //application 应用场景
-        [""],
+        ["SocialMedia"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Derive"],
+        "https://dl.acm.org/doi/abs/10.1145/3290605.3300335",//url
         //publication
-        "",
+        "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. 2019: 1-12.",
         //innerContent
         {
             Abstract:"",
@@ -3867,25 +3867,25 @@ export let paper = [
     ),
     new Content(
         "2018-Weather-BloodGlucose-138",//id
-        "",//name
+        "Weather(2018)",//name
         //title
-        "",
-        "",//year
+        "Pictures Worth a Thousand Words: Reflections on Visualizing Personal Blood Glucose Forecasts for Individuals with Type 2 Diabetes",
+        "2018",//year
         //authors
-        "",
+        "Pooja M. Desai, Matthew E. Levine, David J. Albers, Lena Mamykina",
         //picturePath
         "../picture100/2018-Weather-BloodGlucose.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","F",["Text"],"Weather"],
         //application 应用场景
-        [""],
+        ["BiologyMedical"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Enjoy"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3174112",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3895,25 +3895,25 @@ export let paper = [
     ),
     new Content(
         "2018-Grasp-Interaction-140",//id
-        "",//name
+        "Grasp(2018)",//name
         //title
-        "",
-        "",//year
+        "VirtualGrasp: Leveraging Experience of Interacting with Physical Objects to Facilitate Digital Object Retrieval",
+        "2018",//year
         //authors
-        "",
+        "Yukang Yan, Chun Yu†, Xiaojuan Ma, Xin Yi, Sun Ke, Yuanchun Shi",
         //picturePath
         "../picture100/2018-Grasp-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",["Spatial"],"Grasp"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Browse"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3173652",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3923,25 +3923,25 @@ export let paper = [
     ),
     new Content(
         "2018-River-Text-141",//id
-        "",//name
+        "River(2018)",//name
         //title
-        "",
-        "",//year
+        "T-Cal: Understanding Team Conversation Data with Calendar-based Visualization",
+        "2018",//year
         //authors
-        "",
+        "Siwei Fu,Jian Zhao,Hao Fei Cheng,Haiyi Zhu,Jennifer Marlow",
         //picturePath
         "../picture100/2018-River-Text.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","Z",["Text"],"River"],
         //application 应用场景
-        [""],
+        ["DigitalHumanities"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Topology"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize","Present"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3174074",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018: 1-13.",
         //innerContent
         {
             Abstract:"",
@@ -3951,25 +3951,25 @@ export let paper = [
     ),
     new Content(
         "2018-Desktop-Interaction-142",//id
-        "",//name
+        "Desktop(2018)",//name
         //title
-        "",
-        "",//year
+        "Designing Coherent Gesture Sets for Multi-scale Navigation on Tabletops",
+        "2018",//year
         //authors
-        "",
+        "Vít Rusˇnák, Caroline Appert, Olivier Chapuis, Emmanuel Pietriga",
         //picturePath
         "../picture100/2018-Desktop-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","Z",["Spatial"],"Desktop"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Browse"],
         //task 任务/功能
         [""],
-        "",//url
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3173716",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI conference on human factors in computing systems.",
         //innerContent
         {
             Abstract:"",
@@ -3979,25 +3979,25 @@ export let paper = [
     ),
     new Content(
         "2018-Canvas-Interaction-143",//id
-        "",//name
+        "Canvas(2018)",//name
         //title
-        "",
+        "DataInk: Direct and Creative Data-Oriented Drawing",
         "",//year
         //authors
-        "",
+        "Haijun Xia, Nathalie Henry Riche, Fanny Chevalier, Bruno De Araujo, Daniel Wigdor",
         //picturePath
         "../picture100/2018-Canvas-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","R",["Vedio"],"Canvas"],
         //application 应用场景
-        [""],
+        ["HCI"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Lookup","Annotate"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3173797",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.",
         //innerContent
         {
             Abstract:"",
@@ -4007,25 +4007,25 @@ export let paper = [
     ),
     new Content(
         "2018-Bookshelf-Data-144",//id
-        "",//name
+        "Bookshelf(2018)",//name
         //title
-        "",
+        "InfoNice: Easy Creation of Information Graphics",
         "",//year
         //authors
         "",
         //picturePath
         "../picture100/2018-Bookshelf-Data.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Table"],"Bookshelf"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Distance"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Compare","Browse"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3173909",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
         //innerContent
         {
             Abstract:"",
@@ -4035,25 +4035,25 @@ export let paper = [
     ),
     new Content(
         "2018-Clock-Map-145",//id
-        "",//name
+        "Map(2018)",//name
         //title
-        "",
-        "",//year
+        "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making",
+        "2018",//year
         //authors
-        "",
+        "Di Weng, Heming Zhu, Jie Bao, Yu Zheng, Yingcai Wu*",
         //picturePath
         "../picture100/2018-Clock-Map.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Form","R",["Spatial"],"Map"],
         //application 应用场景
-        [""],
+        ["Geograhpy"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
-        [""],
+        ["Attribute"],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Summarize"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3173821",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.",
         //innerContent
         {
             Abstract:"",
@@ -4063,25 +4063,25 @@ export let paper = [
     ),
     new Content(
         "2018-Sculptor-Interaction-146",//id
-        "",//name
+        "Sculptor(2018)",//name
         //title
-        "",
-        "",//year
+        "Dream Lens: Exploration and Visualization of Large-Scale Generative Design Datasets",
+        "2018",//year
         //authors
-        "",
+        "Justin Matejka, Michael Glueck, Erin Bradner, Ali Hashemi, Tovi Grossman, and George Fitzmaurice",
         //picturePath
         "../picture100/2018-Sculptor-Interaction.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["","","",""],
+        ["Interaction","D",["Vedio"],"Sculptor"],
         //application 应用场景
-        [""],
+        ["DataAnalysis"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
         [""],
         //task 任务/功能
-        [""],
-        "",//url
+        ["Annotate"],
+        "https://dl.acm.org/doi/abs/10.1145/3173574.3173943",//url
         //publication
-        "",
+        "Proceedings of the 2018 CHI conference on human factors in computing systems",
         //innerContent
         {
             Abstract:"",
