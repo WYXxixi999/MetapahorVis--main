@@ -26,19 +26,20 @@ const show_cards = computed(() => {
     return data.content;
   } else {
     //如果有筛选
-    console.log("选中：", data.filters);
-    return data.content.filter((d) => {
+    console.log("选中：", data.filters);//初始data.filters["","",""]
+    return data.content.filter((d) => {//开始筛选
       for (let i = 0; i < data.filters.length; i++) {
-        const filter = data.filters[i];
+        const filter = data.filters[i];//
         if (filter == "All") return true;
         else if (filter !== "") {
           console.log("filter:", filter);
-          if (typeof filter == "object") {
-            console.log("选中数据类型（是一个数组）");
+          if (typeof filter == "object") {//我也忘了为什么要判断这是object  这是object又怎样
+            //console.log("选中数据类型（是一个数组）");
             console.log("d.group", d.group);
-            if (d.group[2].find((d) => d === filter[0]) === undefined) {
-              return false;
+            if (d.group[2].includes("Text")) {
+              return true;
             }
+            else return false;
           } else {
             if (d.group.find((d) => d === filter) === undefined) {
               return false;
