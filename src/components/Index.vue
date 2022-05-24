@@ -16,7 +16,6 @@ const data = reactive({
   },
   flag: [1, 1, 1],
   current_content: null,
-  
 
   options: [
     {
@@ -73,44 +72,43 @@ const data = reactive({
     },
   ],
   selectedValue: "",
-  ifSearch:false,
-  inputValue:"",
+  ifSearch: false,
+  inputValue: "",
 });
 
 data.content = paper;
 
 const show_cards = computed(() => {
-  if(data.ifSearch){
+  if (data.ifSearch) {
     return data.content.filter((d) => {
       for (const key in d) {
         if (Object.hasOwnProperty.call(d, key)) {
           const element = d[key];
           //console.log(typeof(element),key,element)
-          if(typeof element==='string'){
-            let reg =  new RegExp(`.*${data.inputValue}.*`,'i');
+          if (typeof element === "string") {
+            let reg = new RegExp(`.*${data.inputValue}.*`, "i");
             // if(element.includes(data.inputValue))return true;
             if (reg.test(element)) {
-              
               return true;
             }
           }
           //else {console.log(key,element);return false;}
-          else if(typeof(element)==="object"){
-            console.log(typeof(element),key,element);
+          else if (typeof element === "object") {
+            console.log(typeof element, key, element);
             //return false;
-              for (let index = 0; index < element.length; index++) {
-                const item = element[index];
-                let reg =  new RegExp(`.*${data.inputValue}.*`,'i');
-                if(reg.test(element.toString())){
-                  return true;
-                }
+            for (let index = 0; index < element.length; index++) {
+              const item = element[index];
+              let reg = new RegExp(`.*${data.inputValue}.*`, "i");
+              if (reg.test(element.toString())) {
+                return true;
               }
+            }
           }
         }
       }
       //return false;
       //开始筛选
-      })
+    });
   }
   if (data.filters.join("") === "") {
     //如果没有选中筛选器
@@ -126,8 +124,7 @@ const show_cards = computed(() => {
         if (filter == "All") {
           console.log(i, filter);
           data.flag[i] = 1;
-        }
-        else if (filter !== "") {
+        } else if (filter !== "") {
           //console.log("filter:", filter);
           if (typeof filter == "object") {
             if (d.group[2].includes(data.selectedValue)) {
@@ -141,8 +138,8 @@ const show_cards = computed(() => {
           }
         }
       }
-      if (((data.flag[1] ===1|| data.flag[2])===1 || data.flag[0]) === 1) return true;
-
+      if (((data.flag[1] === 1 || data.flag[2]) === 1 || data.flag[0]) === 1)
+        return true;
     });
   }
 });
@@ -165,9 +162,9 @@ function SelectData(selectValue) {
   Filter(2, selectValue);
 }
 
-function search(inputvalue){
-  if(data.inputValue!="")data.ifSearch=true;
-  else data.ifSearch=false;
+function search(inputvalue) {
+  if (data.inputValue != "") data.ifSearch = true;
+  else data.ifSearch = false;
 }
 
 const detailView = ref(null);
@@ -580,14 +577,7 @@ function ShowDetailWindow(content, card_rect) {
       </div>
     </div>
 
-    <div
-      class="detail-window"
-      v-if="data.show_detail"
-      :style="{
-        top: `${data.detail_window.y}px`,
-        left: `${data.detail_window.x}px`,
-      }"
-    >
+    <div class="detail-window" v-if="data.show_detail">
       <detail-view
         ref="detailView"
         @close="data.show_detail = false"
@@ -651,8 +641,9 @@ function ShowDetailWindow(content, card_rect) {
 
 .detail-window {
   position: fixed;
-  left: 25vw;
-  height: 25vh;
+  top: 25vh;
+  left: 20vw;
+  // height: 25vh;
   z-index: 10;
 }
 

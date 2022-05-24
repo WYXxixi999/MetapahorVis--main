@@ -8,13 +8,9 @@
       circle
       @click="CloseWindow"
     />
-    <div class="content">
+    <div class="detail-content">
       <div class="groups">
         <div v-for="g in content.group" :key="g">{{ g }}</div>
-        <!-- <div>Form</div>
-        <div>Man-made</div>
-        <div>Text&Graph</div>
-        <div>Map</div> -->
       </div>
       <el-image class="preview-img" :src="props.content.picture" fit="cover" />
       <div class="text">
@@ -23,9 +19,24 @@
         <a class="typeTitleConstructMethod"
           >constructMethod & Task & Application:</a
         >
-        <a class="constructMethod">{{ props.content.constructMethod }}</a>
-        <a class="task">{{ props.content.task }}</a>
-        <a class="application">{{ props.content.application }}</a>
+        <div class="constructMethod">
+          <teamplate v-for="m in props.content.constructMethod" :key="m">
+            <a v-if="m.length > 0">{{ m }}</a>
+            <a v-else>----</a>
+          </teamplate>
+        </div>
+        <div class="task">
+          <template v-for="m in props.content.task" :key="m">
+            <a >{{ m }}</a>
+          </template>
+        </div>
+
+        <div class="application">
+          <template v-for="m in props.content.application" :key="m">
+            <a>{{m}}</a>
+          </template>
+        </div>
+
         <a class="publicationTitle">Publication:</a>
         <a class="publication">{{ props.content.publication }}</a>
         <a class="detailcontent" :href="props.content.url">{{
@@ -69,7 +80,7 @@ function CloseWindow() {
   }
 }
 
-.content {
+.detail-content {
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
@@ -83,24 +94,16 @@ function CloseWindow() {
       left: 270px;
     }
     .authors {
-      // div{
-      //   width: 400px;
-      //   height:100px;
-      //   border: 5px solid green;
-      //   //margin: 10px;
-      //   overflow: scroll;
-      //   line-height: 110%;
-      //   font-size: 18px;
-      // }
-      //border: 1px solid rgb(114, 143, 114);
-      height:42px;
+      position: absolute;
+      height: 42px;
       margin: 10px;
+      left: 290px;
       width: 650px;
       font-size: 18px;
       line-height: 110%;
       text-overflow: ellipsis;
       overflow: hidden;
-      word-break: break-all;  /* break-all(允许在单词内换行。) */	
+      word-break: break-all; /* break-all(允许在单词内换行。) */
       display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
       -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
       -webkit-line-clamp: 2; /** 显示的行数 **/
@@ -148,6 +151,11 @@ function CloseWindow() {
 	border-left-width:2px;
 	border-bottom-width:2px;
 	border-right-width:2px; */
+  word-break: break-all; /* break-all(允许在单词内换行。) */
+  display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 1; /** 显示的行数 **/
+  overflow: hidden;
 }
 .publicationTitle {
   position: absolute;
@@ -171,15 +179,26 @@ function CloseWindow() {
   position: absolute;
   top: 120px;
   left: 300px;
+
+  a{
+    margin: 0px 8px 0px 0px;
+  }
 }
 .task {
   position: absolute;
   top: 140px;
   left: 300px;
+
+  a{
+    margin: 0px 20px 0px 0px;
+  }
 }
 .application {
   position: absolute;
   top: 160px;
   left: 300px;
+  a{
+    margin: 0px 20px 0px 0px;
+  }
 }
 </style>

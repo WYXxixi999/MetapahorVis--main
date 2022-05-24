@@ -734,11 +734,11 @@ export let paper = [
         "ScatterBlogs2: Real-Time Monitoring of Microblog Messages Through User-Guided Filtering",
         "2013",//year
         //authors
-        "",
+        "Harald Bosch, Dennis Thom, Florian Heimerl, Edwin P¨uttmann, Steffen Koch, Robert Kr¨uger, Michael W¨orner, and Thomas Ertl",
         //picturePath
         "../picture100/2013-Map-SocialMedia.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
-        ["Form","Map",["Text","Time"],"Map"],
+        ["Form","R",["Text","Time"],"Map"],
         //application 应用场景
         ["SocialMedia"],
         //constructMethod 构建隐喻的方法:Attribute Topology Distance Hybrid
