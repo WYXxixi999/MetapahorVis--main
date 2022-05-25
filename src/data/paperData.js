@@ -4089,4 +4089,60 @@ export let paper = [
             Feature:[""]
         }
     ),
+    new Content(
+        "2016-Vessels-Traffic-147",//id
+        "Vessels(2016)",//name
+        //title
+        "Pulsing Blood Vessels: A Figurative Approach to Traf c Visualization",
+        "2016",//year
+        //authors
+        "Pedro Cruz and Penousal Machado",
+        //picturePath
+        "../picture100/.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Spatial"],"Vessels"],
+        //application 应用场景
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Tolopogy"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/7426242",//url
+        //publication
+        "IEEE Computer Graphics and Applications ( Volume: 36, Issue: 2, Mar.-Apr. 2016)",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2015-Bubble-Event-148",//id
+        "Bubble(2015)",//name
+        //title
+        "Wrongfully right: applications of semantic fifigurative metaphors in information visualization",
+        "2015",//year
+        //authors
+        "Pedro Cruz",
+        //picturePath
+        "../picture100/.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Event"],"Bubble"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Tolopogy"],
+        //task 任务/功能
+        ["Summarize"],
+        "http://visap.uic.edu/2015/VISAP15-Papers/visap2015_Cruz_WrongfullyRight.pdf",//url
+        //publication
+        " IEEE VIS Arts Program (VISAP), 2015: 14-21.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
 ]

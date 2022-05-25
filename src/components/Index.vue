@@ -529,6 +529,7 @@ function ShowDetailWindow(content, card_rect) {
         <div class="function-group">
           <div>DataTypes</div>
           <el-select v-model="data.options.value" placeholder="请选择">
+            
             <el-option
               v-for="item in data.options"
               :key="item.value"
@@ -537,6 +538,7 @@ function ShowDetailWindow(content, card_rect) {
               @click="SelectData(item.label)"
             >
               <span style="float: left">{{ item.label }}</span>
+              
             </el-option>
           </el-select>
         </div>
