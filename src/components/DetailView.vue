@@ -10,7 +10,15 @@
     />
     <div class="detail-content">
       <div class="groups">
-        <div v-for="g in content.group" :key="g">{{ g }}</div>
+        <!-- <div v-for="g in content.group" :key="g">{{ g }}</div> -->
+        <div v-for="g in content.group" :key="g">
+          <div v-if="typeof g === 'object'">
+            <template v-for="i in props.content.group[2]" :key="i">
+              <a>{{ i }}</a>
+            </template>
+          </div>
+          <div v-else>{{ g }}</div>
+        </div>
       </div>
       <el-image class="preview-img" :src="props.content.picture" fit="cover" />
       <div class="text">
@@ -27,13 +35,13 @@
         </div>
         <div class="task">
           <template v-for="m in props.content.task" :key="m">
-            <a >{{ m }}</a>
+            <a>{{ m }}</a>
           </template>
         </div>
 
         <div class="application">
           <template v-for="m in props.content.application" :key="m">
-            <a>{{m}}</a>
+            <a>{{ m }}</a>
           </template>
         </div>
 
@@ -114,13 +122,18 @@ function CloseWindow() {
     position: absolute;
     top: -5px;
     right: 0;
-    margin-right: 10px;
+    margin-right: 7px;
     display: flex;
     div {
       background-color: rgb(138, 186, 208);
-      padding: 2px;
-      margin: 10px;
+      padding: 1px;
+      margin: 2px;
       border-radius: 3px;
+      //line-height: 70%;
+
+      a {
+        margin: 0px 5px 0px 0px;
+      }
     }
   }
 }
@@ -180,7 +193,7 @@ function CloseWindow() {
   top: 120px;
   left: 300px;
 
-  a{
+  a {
     margin: 0px 8px 0px 0px;
   }
 }
@@ -189,7 +202,7 @@ function CloseWindow() {
   top: 140px;
   left: 300px;
 
-  a{
+  a {
     margin: 0px 20px 0px 0px;
   }
 }
@@ -197,7 +210,7 @@ function CloseWindow() {
   position: absolute;
   top: 160px;
   left: 300px;
-  a{
+  a {
     margin: 0px 20px 0px 0px;
   }
 }

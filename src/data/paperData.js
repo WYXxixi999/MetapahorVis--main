@@ -1065,7 +1065,7 @@ export let paper = [
     ),
     new Content(
         "2012-Filter-Flow-Interaction-39",//id
-        "Filter(2012)",//name
+        "Filtering(2012)",//name
         //title
         "Beyond Mouse and Keyboard: Expanding Design Considerations for Information Visualization Interactions",
         "2012",//year
@@ -1210,7 +1210,7 @@ export let paper = [
         "Visualizing Virus Population Variability From Next Generation Sequencing Data",
         "2011",//year
         //authors
-        "",
+        "Michael Correll∗ , Subhadip Ghosh† , David O’Connor‡ , Michael Gleicher§",
         //picturePath
         "../picture100/2011-Fog-Uncertain.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
@@ -4098,7 +4098,7 @@ export let paper = [
         //authors
         "Pedro Cruz and Penousal Machado",
         //picturePath
-        "../picture100/.png",
+        "../picture100/2016-Vessels-Traffic.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
         ["Form","Z",["Spatial"],"Vessels"],
         //application 应用场景
@@ -4126,7 +4126,7 @@ export let paper = [
         //authors
         "Pedro Cruz",
         //picturePath
-        "../picture100/.png",
+        "../picture100/2015-Bubble-Event.png",
         //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
         ["Form","Z",["Event"],"Bubble"],
         //application 应用场景
