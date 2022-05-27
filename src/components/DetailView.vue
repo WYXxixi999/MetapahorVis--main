@@ -25,7 +25,7 @@
         <div class="title">{{ props.content.name }}</div>
         <div class="authors">{{ props.content.authors }}</div>
         <a class="typeTitleConstructMethod"
-          >constructMethod & Task & Application:</a
+          >ConstructMethod & Task & Application:</a
         >
         <div class="constructMethod">
           <teamplate v-for="m in props.content.constructMethod" :key="m">

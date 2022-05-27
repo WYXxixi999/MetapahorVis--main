@@ -79,7 +79,8 @@ const data = reactive({
 data.content = paper;
 
 const show_cards = computed(() => {
-  if (data.ifSearch) {
+  {//搜索
+  if (data.ifSearch) 
     return data.content.filter((d) => {
       for (const key in d) {
         if (Object.hasOwnProperty.call(d, key)) {
@@ -106,10 +107,9 @@ const show_cards = computed(() => {
           }
         }
       }
-      //return false;
-      //开始筛选
     });
   }
+  //筛选
   if (data.filters.join("") === "") {
     //如果没有选中筛选器
     return paper;

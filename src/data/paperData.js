@@ -25,7 +25,7 @@ export let paper = [
             'IEEE Transactions on Visualization and Computer Graphics ( Volume: 26, Issue: 1, Jan. 2020)',
             //innerContent
             {
-                Abstract: "55555吴愚希我太悲伤太恐怖太可怕了",
+                Abstract: "We propose R-Map (Reposting Map), a visual analytical approach with a map metaphor to support interactive exploration and analysis of the information reposting process in social media.",
                 Func: ["Propogate", "Influence"],
                 Feature: ["Dynamic", "Derive"]
             }
