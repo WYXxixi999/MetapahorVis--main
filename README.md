@@ -1,6 +1,6 @@
 # MetaphorVis
 
-*TBD* (add a short description here)
+    An Interface collecting visualization metaphors here.
 
 ## Table of Contents
 
@@ -11,6 +11,7 @@
 ## Introduction
 
 *TBD* (add an introduction to this project and your work here)
+
 
 ## More contents
 
