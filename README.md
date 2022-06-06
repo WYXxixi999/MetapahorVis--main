@@ -11,11 +11,17 @@
 ## Introduction
 
 *TBD* (add an introduction to this project and your work here)
-
+project setup
+    npm install
+    
+project compile and development
+    npm run dev
+    
+project for production
+    npm run build
 
 ## More contents
-
-*TBD* (add some more information here, e.g., related work, contributions, and so forth)
+    online site:https://metaphor.yuyuyuxi.top/
 
 ## License
 
