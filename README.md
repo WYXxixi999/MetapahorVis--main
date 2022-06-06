@@ -11,12 +11,15 @@
 ## Introduction
 
 project setup
+
     npm install
     
 project compile and development
+
     npm run dev
     
 project for production
+
     npm run build
 
 ## More contents
