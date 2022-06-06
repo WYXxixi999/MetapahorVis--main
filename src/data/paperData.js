@@ -212,7 +212,7 @@ export let paper = [
         //constructMethod构建隐喻的方法 
         ["Attribute"],
         //task任务/功能
-        ["Expolre","Present"],
+        ["Explore","Present"],
         "https://ieeexplore.ieee.org/document/8823624",//url
         //publication
         "2018 IEEE Scientific Visualization Conference (SciVis)",
@@ -4138,6 +4138,706 @@ export let paper = [
         "http://visap.uic.edu/2015/VISAP15-Papers/visap2015_Cruz_WrongfullyRight.pdf",//url
         //publication
         " IEEE VIS Arts Program (VISAP), 2015: 14-21.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "1985-Ecosystem-EntitiesRelation-149",//id
+        "Ecosystem(1985)",//name
+        //title
+        "Semiology of Graphics: Diagrams, Networks, Maps.",
+        "1985",//year
+        //authors
+        "Monmonier, Mark",
+        //picturePath
+        "../picture100/1985-Ecosystem-EntitiesRelation.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Text"],"Ecosystem"],
+        //application 应用场景
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Summeraize","Present"],
+        "https://www.jstor.org/stable/2563117",//url
+        //publication
+        "(1985): 605-609",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2005-Dust&Manget-MetaData-150",//id
+        "Dust&Manget(2005)",//name
+        //title
+        "Dust & Magnet: multivariate information visualization using a magnet metaphor",
+        "2005",//year
+        //authors
+        "Ji Soo Yi,Rachel Melton,John Stasko,Julie A. Jacko",
+        //picturePath
+        "../picture100/2005-Dust&Manget-MetaData.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["MetaData"],"Dust&Manget"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Distance"],
+        //task 任务/功能
+        ["Summarize","Explore"],
+        "https://journals.sagepub.com/doi/abs/10.1057/palgrave.ivs.9500099",//url
+        //publication
+        "Information visualization, 2005, 4(4): 239-256.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2003-Band-TimeSeries-151",//id
+        "Band(2003)",//name
+        //title
+        "Visualizing Queries on Databases of Temporal Histories: New Metaphors and their Evaluation",
+        "2003",//year
+        //authors
+        "Luca Chittaro and Carlo Combi",
+        //picturePath
+        "../picture100/2003-Band-TimeSeries.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","F",["Time"],"Band"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Enjoy"],
+        "https://www.sciencedirect.com/science/article/abs/pii/S0169023X02001374",//url
+        //publication
+        "Data & Knowledge Engineering 44.2 (2003): 239-264.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2003-Spring-TimeSeries-152",//id
+        "Spring(2003)",//name
+        //title
+        "Visualizing Queries on Databases of Temporal Histories: New Metaphors and their Evaluation",
+        "2003",//year
+        //authors
+        "Luca Chittaro and Carlo Combi",
+        //picturePath
+        "../picture100/2003-Spring-TimeSeries.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","F",["Time"],"Spring"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Enjoy"],
+        "https://www.sciencedirect.com/science/article/abs/pii/S0169023X02001374",//url
+        //publication
+        "Data & Knowledge Engineering 44.2 (2003): 239-264.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2003-PaintStrip-TimeSeries-153",//id
+        "PaintStrip(2003)",//name
+        //title
+        "Visualizing Queries on Databases of Temporal Histories: New Metaphors and their Evaluation",
+        "2003",//year
+        //authors
+        "Luca Chittaro and Carlo Combi",
+        //picturePath
+        "../picture100/2003-PaintStrip-TimeSeries.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","F",["Time"],"PaintStrip"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Enjoy"],
+        "https://www.sciencedirect.com/science/article/abs/pii/S0169023X02001374",//url
+        //publication
+        "Data & Knowledge Engineering 44.2 (2003): 239-264",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2016-MetroMap-Web-154",//id
+        "MetroMap(2016)",//name
+        //title
+        "Egocentric Analysis of Dynamic Networks with EgoLines",
+        "2016",//year
+        //authors
+        "Jian Zhao, Michael Glueck, Fanny Chevalier, Yanhong Wu, Azam Khan",
+        //picturePath
+        "../picture100/2016-MetroMap-Web.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Text"],"MetroMap"],
+        //application 应用场景
+        ["NetworkScurity"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Enjoy","Summarize"],
+        "https://dl.acm.org/doi/abs/10.1145/2858036.2858488",//url
+        //publication
+        "Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems. 2016: 5003-5014.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2012-Lagrangian-Tensor-155",//id
+        "Lagrangian(2012)",//name
+        //title
+        "Beyond Topology: A Lagrangian Metaphor to Visualize the Structure of 3D Tensor Fields",
+        "2012",//year
+        //authors
+        "Xavier Tricoche, Mario Hlawitschka, Samer Barakat, and Christoph Garth",
+        //picturePath
+        "../picture100/2012-Lagrangian-Tensor.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","K",["MetaData"],"Lagrangian"],
+        //application 应用场景
+        ["SciExperiment"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Distance"],
+        //task 任务/功能
+        ["Enjoy","Explore"],
+        "https://link.springer.com/chapter/10.1007/978-3-642-27343-8_5",//url
+        //publication
+        "New Developments in the Visualization and Processing of Tensor Fields.Springer, Berlin, Heidelberg, 2012. 93-109",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2005-MetroMap-Event-156",//id
+        "MetroMap(2005)",//name
+        //title
+        "Automatic Layout of Project Plans Using a Metro Map Metaphor",
+        "2005",//year
+        //authors
+        "Jonathan M. Stott,Peter Rodgers,Remo Aslak Burkhard,Michael Meier,Matthias Thomas Jelle Smis",
+        //picturePath
+        "../picture100/2005-MetroMap-Event.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Time","Event"],"MetroMap"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Present"],
+        "https://ieeexplore.ieee.org/abstract/document/1509079/",//url
+        //publication
+        "Ninth International Conference on Information Visualisation (IV'05). IEEE, 2005",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2016-Sedimentation-Topic-157",//id
+        "Sedimentation(2016)",//name
+        //title
+        "ConToVi: Multi-Party Conversation Exploration using Topic-Space Views",
+        "2016",//year
+        //authors
+        "Mennatallah El-Assady, Valentin Gold, Carmela Acevedo, Christopher Collins, and Daniel Keim",
+        //picturePath
+        "../picture100/2016-Sedimentation-Topic.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Text"],"Sedimentation"],
+        //applicmation 应用场景
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12919",//url
+        //publication
+        "Computer Graphics Forum. 2016, 35(3): 431-440",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2006-Desktop-Interaction-158",//id
+        "Desktop(2006)",//name
+        //title
+        "Keepin’ It Real: Pushing the Desktop Metaphor with Physics, Piles and the Pen",
+        "2006",//year
+        //authors
+        "Xavier Tricoche, Mario Hlawitschka, Samer Barakat, and Christoph Garth",
+        //picturePath
+        "../picture100/2006-Desktop-Interaction.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Interaction","R",["Text"],"Desktop"],
+        //application 应用场景
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        [""],
+        //task 任务/功能
+        ["Annotate"],
+        "https://dl.acm.org/doi/abs/10.1145/1124772.1124965",//url
+        //publication
+        "Proceedings of the SIGCHI conference on Human Factors in computing systems. 2006: 1283-1292.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2010-TimeSpiderTree-TimeSeries-159",//id
+        "Tree(2010)",//name
+        //title
+        "TimeSpiderTrees: A Novel Visual Metaphor for Dynamic Compound Graphs",
+        "2010",//year
+        //authors
+        "Michael Burch, Michael Fritz,Fabian Beck, Stephan Diehl",
+        //picturePath
+        "../picture100/2010-TimeSpiderTree-TimeSeries.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Time"],"Tree "],
+        //application 应用场景
+        ["DataAnaylysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Enjoy","Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/5635217",//url
+        //publication
+        "2010 IEEE Symposium on Visual Languages and Human-Centric Computing",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2008-Matrix-Navigation-160",//id
+        "Matrix(2008)",//name
+        //title
+        "Rolling the Dice: Multidimensional Visual Exploration using Scatterplot Matrix Navigation",
+        "2008",//year
+        //authors
+        "Niklas Elmqvist, Pierre Dragicevic, Jean-Daniel Fekete",
+        //picturePath
+        "../picture100/2008-Matrix-Navigation.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","K",["MetaData"],"Matrix"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Lookup"],
+        "https://ieeexplore.ieee.org/abstract/document/4658123/",//url
+        //publication
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 14, Issue: 6, Nov.-Dec. 2008)",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2002-Lens-Interaction-161",//id
+        "Lens(2002)",//name
+        //title
+        "The Through-The-Lens Metaphor: Taxonomy and Application",
+        "2002",//year
+        //authors
+        "Stanislav L. Stoev∗, Dieter Schmalstieg† ,Wolfgang Straßer∗",
+        //picturePath
+        "../picture100/2002-Lens-Interaction.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Interaciton","R",["Spatial"],"Lens"],
+        //application 应用场景
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        [""],
+        //task 任务/功能
+        ["Enjoy","Looup"],
+        "https://ieeexplore.ieee.org/abstract/document/996541",//url
+        //publication
+        "Proceedings IEEE Virtual Reality 2002",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2007-Clock-TimeSeriesConversation-162",//id
+        "Clock(2007)",//name
+        //title
+        "Conversation Clock: Visualizing audio patterns in co-located groups",
+        "2007",//year
+        //authors
+        "Tony Bergstrom and Karrie Karahalios",
+        //picturePath
+        "../picture100/2007-Clock-TimeSeriesConversation.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Time","Text"],"Clock"],
+        //application 应用场景
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/4076529",//url
+        //publication
+        "2007 40th Annual Hawaii International Conference on System Sciences (HICSS'07). IEEE, 2007.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2007-Radar-TimeSeriesConversation-163",//id
+        "Radar(2007)",//name
+        //title
+        "Conversation Clock: Visualizing audio patterns in co-located groups",
+        "2007",//year
+        //authors
+        "Tony Bergstrom and Karrie Karahalios",
+        //picturePath
+        "../picture100/2007-Radar-TimeSeriesConversation.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Time","Text"],"Radar"],
+        //application 应用场景
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/4076529",//url
+        //publication
+        "2007 40th Annual Hawaii International Conference on System Sciences (HICSS'07). IEEE, 2007.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2020-Maps-Music-164",//id
+        "Maps(2020)",//name
+        //title
+        "Content-based Organization and Visualization of Music Archives",
+        "2020",//year
+        //authors
+        "Elias Pampalk,Andreas Rauber*,Dieter Merkl",
+        //picturePath
+        "../picture100/2020-Maps-Music.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Time"],"Maps"],
+        //application 应用场景
+        ["DigitalAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/996541/",//url
+        //publication
+        "Proceedings IEEE Virtual Reality 2002",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2016-Tree-Text-165",//id
+        "Tree(2016)",//name
+        //title
+        "A Design Study of Personal Bibliographic Data Visualization",
+        "2016",//year
+        //authors
+        "Tsai-Ling Fung∗, Jia-Kai Chou†, Kwan-Liu Ma‡",
+        //picturePath
+        "../picture100/2016-Tree-Text.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Text"],"Tree"],
+        //application 应用场景
+        ["DataAnalysis"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Enjoy","Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/7465279",//url
+        //publication
+        "2016 IEEE Pacific Visualization Symposium (PacificVis)",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2008-Strip-Smoke-166",//id
+        "Strip(2008)",//name
+        //title
+        "Smoke Surfaces: An Interactive Flow Visualization Technique Inspired by Real-World Flow Experiments",
+        "2008",//year
+        //authors
+        "Tsai-Ling Fung; Jia-Kai Chou; Kwan-Liu Ma",
+        //picturePath
+        "../picture100/2008-Strip-Smoke.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","F",["Spatial"],"Strip"],
+        //application 应用场景
+        ["SciExperiment"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Attribute"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/4658155",//url
+        //publication
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 14, Issue: 6, Nov.-Dec. 2008)",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2016-DMap-SocialMedia-167",//id
+        "DMap(2016)",//name
+        //title
+        "D-Map: Visual Analysis of Ego-centric Information Diffusion Patterns in Social Media",
+        "2016",//year
+        //authors
+        "Siming Chen∗,Shuai Chen,Zhenhuang Wang,Jie Liang,Xiaoru Yuan,Nan Cao,Yadong Wu§",
+        //picturePath
+        "../picture100/2016-DMap-SocialMedia.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Text","Time"],"Map"],
+        //application 应用场景
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://ieeexplore.ieee.org/abstract/document/7883510",//url
+        //publication
+        "2016 IEEE Conference on Visual Analytics Science and Technology (VAST)",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2014-Flow-SocialMedia-168",//id
+        "Flow(2014)",//name
+        //title
+        "#FluxFlow: Visual Analysis of Anomalous Information Spreading on Social Media",
+        "2014",//year
+        //authors
+        "Jian Zhao, Nan Cao, Zhen Wen, Yale Song, Yu-Ru Lin, and Christopher Collins",
+        //picturePath
+        "../picture100/2014-Flow-SocialMedia.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","F",["Time","Text"],"Flow"],
+        //application 应用场景
+        ["DigitalHumanities","SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Browse"],
+        "https://ieeexplore.ieee.org/abstract/document/6876013",//url
+        //publication
+        "IEEE Transactions on Visualization and Computer Graphics ( Volume: 20, Issue: 12, Dec. 31 2014)",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2008-Garden-Inderaction-169",//id
+        "Garden(2008)",//name
+        //title
+        "Activity Sensing in the Wild: A Field Trial of UbiFit Garden",
+        "2008",//year
+        //authors
+        "Sunny Consolvo, David W. McDonald, Tammy Toscos, Mike Y. Chen, Jon Froehlich,Beverly Harrison, Predrag Klasnja, Anthony LaMarca, Louis LeGrand, Ryan Libby,Ian Smith, & James A. Landay",
+        //picturePath
+        "../picture100/2008-Garden-Inderaction.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Intercation","R",[""],"Garden"],
+        //application 应用场景
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        [""],
+        //task 任务/功能
+        ["Annotate"],
+        "https://dl.acm.org/doi/abs/10.1145/1357054.1357335",//url
+        //publication
+        "Proceedings of the SIGCHI conference on human factors in computing systems. 2008.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2009-BarrierTape-Interaction-170",//id
+        "BarrierTape(2009)",//name
+        //title
+        "The Magic Barrier Tape: a Novel Metaphor for Infifinite Navigation in Virtual Worlds with a Restricted Walking Workspace",
+        "2009",//year
+        //authors
+        "Gabriel Cirio,Maud Marchal,Tony Regia-Corte,Anatole L´ecuyer",
+        //picturePath
+        "../picture100/2009-BarrierTape-Interaction.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Interaction","R",["Spatial"],"BarrierTape"],
+        //application 应用场景
+        ["HCI"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        [""],
+        //task 任务/功能
+        ["Browse"],
+        "https://dl.acm.org/doi/abs/10.1145/1643928.1643965",//url
+        //publication
+        "Proceedings of the 16th ACM Symposium on Virtual Reality Software and Technology",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2016-Tree-Vedio-171",//id
+        "Tree(2016)",//name
+        //title
+        "VideoForest: Interactive Visual Summarization of Video Streams Based on Danmu Data",
+        "2016",//year
+        //authors
+        "Zhida Sun∗, Mingfei Sun, Nan Cao, and Xiaojuan Ma",
+        //picturePath
+        "../picture100/2016-Tree-Vedio.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Vedio"],"Tree"],
+        //application 应用场景
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Summarize"],
+        "https://dl.acm.org/doi/abs/10.1145/3002151.3002159",//url
+        //publication
+        "SIGGRAPH ASIA 2016 Symposium on Visualization. 2016: 1-8.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2013-Map-text-172",//id
+        "Map(2013)",//name
+        //title
+        "Interactive Visualization of Streaming Text Data with Dynamic Maps",
+        "2013",//year
+        //authors
+        "Gansner, Emden R., Yifan Hu, and Stephen C. North",
+        //picturePath
+        "../picture100/2013-Map-text.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","R",["Text"],"Map"],
+        //application 应用场景
+        ["SocialMedia"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topology"],
+        //task 任务/功能
+        ["Summarize"],
+        "http://yifanhu.net/PUB/twitter_scope.pdf",//url
+        //publication
+        "J. Graph Algorithms Appl., 2013, 17(4): 515-540.",
+        //innerContent
+        {
+            Abstract:"",
+            Func:[""],
+            Feature:[""]
+        }
+    ),
+    new Content(
+        "2018-Landscape-Film-173",//id
+        "Landscape(2018)",//name
+        //title
+        "A 3D Item Space Visualization for Presenting and Manipulating User Preferences in Collaborative Filtering",
+        "2018",//year
+        //authors
+        "Johannes Kunkel,Benedikt Loepp,Jürgen Ziegler",
+        //picturePath
+        "../picture100/2018-Landscape-Film.png",
+        //group:Form / Interaction, Z / R / F / D / K , 1 ~ 13 , shape
+        ["Form","Z",["Text"],"Landscape"],
+        //application 应用场景
+        ["DigitalHumanities"],
+        //constructMethod 构建隐喻的方法:Attribute Tolopogy Distance Hybrid
+        ["Topoogy"],
+        //task 任务/功能
+        ["Present"],
+        "https://dl.acm.org/doi/abs/10.1145/3025171.3025189",//url
+        //publication
+        "Proceedings of the 22nd international conference on intelligent user interfaces.",
         //innerContent
         {
             Abstract:"",

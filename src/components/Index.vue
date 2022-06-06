@@ -528,7 +528,7 @@ function ShowDetailWindow(content, card_rect) {
         <!-- 第3组：数据类型 ： 13种 -->
         <div class="function-group">
           <div>DataTypes</div>
-          <el-select v-model="data.options.value" placeholder="请选择">
+          <el-select v-model="data.options.value" placeholder="Please select">
             
             <el-option
               v-for="item in data.options"
