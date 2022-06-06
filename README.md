@@ -10,7 +10,6 @@
 
 ## Introduction
 
-*TBD* (add an introduction to this project and your work here)
 project setup
     npm install
     
@@ -21,7 +20,8 @@ project for production
     npm run build
 
 ## More contents
-    online site:https://metaphor.yuyuyuxi.top/
+online site:
+    https://metaphor.yuyuyuxi.top/
 
 ## License
 
